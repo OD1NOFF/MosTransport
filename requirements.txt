@@ -1,0 +1,14 @@
+fastapi>=0.110.0
+uvicorn[standard]>=0.30.0
+pydantic>=2.7.0
+pydantic-settings>=2.3.0
+networkx>=3.3
+httpx>=0.27.0
+python-dotenv>=1.0.0
+
+# Тестирование
+pytest>=8.0.0
+pytest-asyncio>=0.23.0
+
+# Опционально (см. ТЗ п. 4.3.2.5):
+# pymorphy3>=1.2.0  # морфологический анализ русского языка

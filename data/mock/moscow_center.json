@@ -1,0 +1,93 @@
+{
+  "_description": "Учебный датасет ИС МосТранспорт. Центр Москвы: 4 линии метро + автобусный маршрут №2. Координаты — WGS84.",
+  "routes": [
+    {"external_id": "m_line_1", "route_number": "1", "route_name": "Сокольническая линия", "transport_type": "metro", "color": "#EF1E25"},
+    {"external_id": "m_line_2", "route_number": "2", "route_name": "Замоскворецкая линия", "transport_type": "metro", "color": "#2DBE2C"},
+    {"external_id": "m_line_3", "route_number": "3", "route_name": "Арбатско-Покровская линия", "transport_type": "metro", "color": "#0078BE"},
+    {"external_id": "m_line_5", "route_number": "5", "route_name": "Кольцевая линия", "transport_type": "metro", "color": "#894E35"},
+    {"external_id": "bus_2",    "route_number": "2", "route_name": "Красная площадь — Большой театр", "transport_type": "bus", "color": "#1565C0"}
+  ],
+  "stops": [
+    {"external_id": "sok_parkkult",  "name": "Парк культуры",    "latitude": 55.7356, "longitude": 37.5937, "stop_type": "metro_station", "metro_line": "1", "metro_line_color": "#EF1E25"},
+    {"external_id": "sok_kropotk",   "name": "Кропоткинская",    "latitude": 55.7452, "longitude": 37.6052, "stop_type": "metro_station", "metro_line": "1", "metro_line_color": "#EF1E25"},
+    {"external_id": "sok_bibliote",  "name": "Библиотека им. Ленина", "latitude": 55.7517, "longitude": 37.6099, "stop_type": "metro_station", "metro_line": "1", "metro_line_color": "#EF1E25"},
+    {"external_id": "sok_ohotny",    "name": "Охотный Ряд",      "latitude": 55.7576, "longitude": 37.6156, "stop_type": "metro_station", "metro_line": "1", "metro_line_color": "#EF1E25"},
+    {"external_id": "sok_lubyanka",  "name": "Лубянка",          "latitude": 55.7597, "longitude": 37.6283, "stop_type": "metro_station", "metro_line": "1", "metro_line_color": "#EF1E25"},
+    {"external_id": "sok_chistye",   "name": "Чистые пруды",     "latitude": 55.7647, "longitude": 37.6384, "stop_type": "metro_station", "metro_line": "1", "metro_line_color": "#EF1E25"},
+    {"external_id": "sok_krasnye",   "name": "Красные Ворота",   "latitude": 55.7689, "longitude": 37.6494, "stop_type": "metro_station", "metro_line": "1", "metro_line_color": "#EF1E25"},
+    {"external_id": "sok_komsomol",  "name": "Комсомольская",    "latitude": 55.7758, "longitude": 37.6558, "stop_type": "metro_station", "metro_line": "1", "metro_line_color": "#EF1E25"},
+
+    {"external_id": "zam_novokuz",   "name": "Новокузнецкая",    "latitude": 55.7421, "longitude": 37.6291, "stop_type": "metro_station", "metro_line": "2", "metro_line_color": "#2DBE2C"},
+    {"external_id": "zam_teatraln",  "name": "Театральная",      "latitude": 55.7603, "longitude": 37.6187, "stop_type": "metro_station", "metro_line": "2", "metro_line_color": "#2DBE2C"},
+    {"external_id": "zam_tverskaya", "name": "Тверская",         "latitude": 55.7651, "longitude": 37.6055, "stop_type": "metro_station", "metro_line": "2", "metro_line_color": "#2DBE2C"},
+    {"external_id": "zam_mayakov",   "name": "Маяковская",       "latitude": 55.7699, "longitude": 37.5959, "stop_type": "metro_station", "metro_line": "2", "metro_line_color": "#2DBE2C"},
+    {"external_id": "zam_belorus",   "name": "Белорусская",      "latitude": 55.7766, "longitude": 37.5827, "stop_type": "metro_station", "metro_line": "2", "metro_line_color": "#2DBE2C"},
+
+    {"external_id": "arb_kievskaya", "name": "Киевская",         "latitude": 55.7439, "longitude": 37.5656, "stop_type": "metro_station", "metro_line": "3", "metro_line_color": "#0078BE"},
+    {"external_id": "arb_smolensk",  "name": "Смоленская",       "latitude": 55.7475, "longitude": 37.5834, "stop_type": "metro_station", "metro_line": "3", "metro_line_color": "#0078BE"},
+    {"external_id": "arb_arbatsk",   "name": "Арбатская",        "latitude": 55.7524, "longitude": 37.6013, "stop_type": "metro_station", "metro_line": "3", "metro_line_color": "#0078BE"},
+    {"external_id": "arb_plrevol",   "name": "Площадь Революции", "latitude": 55.7574, "longitude": 37.6217, "stop_type": "metro_station", "metro_line": "3", "metro_line_color": "#0078BE"},
+    {"external_id": "arb_kurskaya",  "name": "Курская",          "latitude": 55.7586, "longitude": 37.6600, "stop_type": "metro_station", "metro_line": "3", "metro_line_color": "#0078BE"},
+
+    {"external_id": "kol_parkkult",  "name": "Парк культуры (кольц.)",  "latitude": 55.7358, "longitude": 37.5940, "stop_type": "metro_station", "metro_line": "5", "metro_line_color": "#894E35"},
+    {"external_id": "kol_kievskaya", "name": "Киевская (кольц.)",       "latitude": 55.7441, "longitude": 37.5659, "stop_type": "metro_station", "metro_line": "5", "metro_line_color": "#894E35"},
+    {"external_id": "kol_krasnopr",  "name": "Краснопресненская",        "latitude": 55.7606, "longitude": 37.5770, "stop_type": "metro_station", "metro_line": "5", "metro_line_color": "#894E35"},
+    {"external_id": "kol_belorus",   "name": "Белорусская (кольц.)",    "latitude": 55.7768, "longitude": 37.5829, "stop_type": "metro_station", "metro_line": "5", "metro_line_color": "#894E35"},
+    {"external_id": "kol_komsomol",  "name": "Комсомольская (кольц.)",  "latitude": 55.7760, "longitude": 37.6560, "stop_type": "metro_station", "metro_line": "5", "metro_line_color": "#894E35"},
+    {"external_id": "kol_kurskaya",  "name": "Курская (кольц.)",        "latitude": 55.7588, "longitude": 37.6602, "stop_type": "metro_station", "metro_line": "5", "metro_line_color": "#894E35"},
+    {"external_id": "kol_taganskaya","name": "Таганская",                "latitude": 55.7420, "longitude": 37.6537, "stop_type": "metro_station", "metro_line": "5", "metro_line_color": "#894E35"},
+    {"external_id": "kol_paveleckaya","name": "Павелецкая",              "latitude": 55.7302, "longitude": 37.6385, "stop_type": "metro_station", "metro_line": "5", "metro_line_color": "#894E35"},
+    {"external_id": "kol_dobrynin",  "name": "Добрынинская",             "latitude": 55.7281, "longitude": 37.6292, "stop_type": "metro_station", "metro_line": "5", "metro_line_color": "#894E35"},
+
+    {"external_id": "bus_krasnaypl", "name": "Красная площадь",  "latitude": 55.7539, "longitude": 37.6208, "stop_type": "bus_stop"},
+    {"external_id": "bus_vasilspsk", "name": "Васильевский спуск", "latitude": 55.7519, "longitude": 37.6238, "stop_type": "bus_stop"},
+    {"external_id": "bus_bolshoy",   "name": "Большой театр",    "latitude": 55.7604, "longitude": 37.6186, "stop_type": "bus_stop"}
+  ],
+  "route_stops": [
+    {"route_external_id": "m_line_1", "stop_external_id": "sok_parkkult",  "sequence": 1, "travel_time_min": 0},
+    {"route_external_id": "m_line_1", "stop_external_id": "sok_kropotk",   "sequence": 2, "travel_time_min": 2},
+    {"route_external_id": "m_line_1", "stop_external_id": "sok_bibliote",  "sequence": 3, "travel_time_min": 2},
+    {"route_external_id": "m_line_1", "stop_external_id": "sok_ohotny",    "sequence": 4, "travel_time_min": 2},
+    {"route_external_id": "m_line_1", "stop_external_id": "sok_lubyanka",  "sequence": 5, "travel_time_min": 2},
+    {"route_external_id": "m_line_1", "stop_external_id": "sok_chistye",   "sequence": 6, "travel_time_min": 2},
+    {"route_external_id": "m_line_1", "stop_external_id": "sok_krasnye",   "sequence": 7, "travel_time_min": 2},
+    {"route_external_id": "m_line_1", "stop_external_id": "sok_komsomol",  "sequence": 8, "travel_time_min": 2},
+
+    {"route_external_id": "m_line_2", "stop_external_id": "zam_novokuz",   "sequence": 1, "travel_time_min": 0},
+    {"route_external_id": "m_line_2", "stop_external_id": "zam_teatraln",  "sequence": 2, "travel_time_min": 2},
+    {"route_external_id": "m_line_2", "stop_external_id": "zam_tverskaya", "sequence": 3, "travel_time_min": 2},
+    {"route_external_id": "m_line_2", "stop_external_id": "zam_mayakov",   "sequence": 4, "travel_time_min": 2},
+    {"route_external_id": "m_line_2", "stop_external_id": "zam_belorus",   "sequence": 5, "travel_time_min": 2},
+
+    {"route_external_id": "m_line_3", "stop_external_id": "arb_kievskaya", "sequence": 1, "travel_time_min": 0},
+    {"route_external_id": "m_line_3", "stop_external_id": "arb_smolensk",  "sequence": 2, "travel_time_min": 2},
+    {"route_external_id": "m_line_3", "stop_external_id": "arb_arbatsk",   "sequence": 3, "travel_time_min": 2},
+    {"route_external_id": "m_line_3", "stop_external_id": "arb_plrevol",   "sequence": 4, "travel_time_min": 2},
+    {"route_external_id": "m_line_3", "stop_external_id": "arb_kurskaya",  "sequence": 5, "travel_time_min": 3},
+
+    {"route_external_id": "m_line_5", "stop_external_id": "kol_parkkult",  "sequence": 1, "travel_time_min": 0},
+    {"route_external_id": "m_line_5", "stop_external_id": "kol_kievskaya", "sequence": 2, "travel_time_min": 3},
+    {"route_external_id": "m_line_5", "stop_external_id": "kol_krasnopr",  "sequence": 3, "travel_time_min": 3},
+    {"route_external_id": "m_line_5", "stop_external_id": "kol_belorus",   "sequence": 4, "travel_time_min": 3},
+    {"route_external_id": "m_line_5", "stop_external_id": "kol_komsomol",  "sequence": 5, "travel_time_min": 4},
+    {"route_external_id": "m_line_5", "stop_external_id": "kol_kurskaya",  "sequence": 6, "travel_time_min": 4},
+    {"route_external_id": "m_line_5", "stop_external_id": "kol_taganskaya","sequence": 7, "travel_time_min": 3},
+    {"route_external_id": "m_line_5", "stop_external_id": "kol_paveleckaya","sequence": 8, "travel_time_min": 3},
+    {"route_external_id": "m_line_5", "stop_external_id": "kol_dobrynin",  "sequence": 9, "travel_time_min": 2},
+    {"route_external_id": "m_line_5", "stop_external_id": "kol_parkkult",  "sequence": 10, "travel_time_min": 3},
+
+    {"route_external_id": "bus_2", "stop_external_id": "bus_krasnaypl", "sequence": 1, "travel_time_min": 0},
+    {"route_external_id": "bus_2", "stop_external_id": "bus_vasilspsk", "sequence": 2, "travel_time_min": 2},
+    {"route_external_id": "bus_2", "stop_external_id": "bus_bolshoy",   "sequence": 3, "travel_time_min": 3}
+  ],
+  "transfers": [
+    {"from_external_id": "sok_ohotny",    "to_external_id": "zam_teatraln",  "distance_m": 80, "walk_time_min": 2, "transfer_type": "underground"},
+    {"from_external_id": "sok_ohotny",    "to_external_id": "arb_plrevol",   "distance_m": 90, "walk_time_min": 2, "transfer_type": "underground"},
+    {"from_external_id": "zam_teatraln",  "to_external_id": "arb_plrevol",   "distance_m": 70, "walk_time_min": 2, "transfer_type": "underground"},
+    {"from_external_id": "sok_parkkult",  "to_external_id": "kol_parkkult",  "distance_m": 60, "walk_time_min": 1, "transfer_type": "underground"},
+    {"from_external_id": "arb_kievskaya", "to_external_id": "kol_kievskaya", "distance_m": 80, "walk_time_min": 2, "transfer_type": "underground"},
+    {"from_external_id": "zam_belorus",   "to_external_id": "kol_belorus",   "distance_m": 70, "walk_time_min": 2, "transfer_type": "underground"},
+    {"from_external_id": "sok_komsomol",  "to_external_id": "kol_komsomol",  "distance_m": 50, "walk_time_min": 1, "transfer_type": "underground"},
+    {"from_external_id": "arb_kurskaya",  "to_external_id": "kol_kurskaya",  "distance_m": 60, "walk_time_min": 2, "transfer_type": "underground"}
+  ]
+}

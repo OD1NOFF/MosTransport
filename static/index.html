@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <title>МосТранспорт — навигация по общественному транспорту Москвы</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.css" />
+  <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+  <div id="map"></div>
+
+  <aside id="sidebar">
+    <header class="logo">
+      <h1>МосТранспорт</h1>
+      <span class="subtitle">Маршруты общественного транспорта Москвы</span>
+    </header>
+
+    <div class="search-panel">
+      <div class="field">
+        <label>Откуда</label>
+        <div class="input-wrap">
+          <input type="text" id="from-input" placeholder="Адрес или выбор на карте" autocomplete="off">
+          <ul class="suggestions" id="from-suggestions"></ul>
+        </div>
+      </div>
+
+      <button class="swap" id="swap-btn" title="Поменять местами" aria-label="Поменять местами">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <path d="M7 4v16M7 20l-3-3M7 20l3-3M17 20V4M17 4l-3 3M17 4l3 3"/>
+        </svg>
+      </button>
+
+      <div class="field">
+        <label>Куда</label>
+        <div class="input-wrap">
+          <input type="text" id="to-input" placeholder="Адрес или выбор на карте" autocomplete="off">
+          <ul class="suggestions" id="to-suggestions"></ul>
+        </div>
+      </div>
+
+      <button class="primary" id="build-btn">Построить маршрут</button>
+      <button class="secondary" id="clear-btn">Очистить</button>
+    </div>
+
+    <div id="result-panel" class="result-panel hidden"></div>
+
+    <footer class="footer-info">
+      <span>© OpenStreetMap contributors</span>
+      <span class="divider">·</span>
+      <a href="/docs" target="_blank">API</a>
+    </footer>
+  </aside>
+
+  <div id="loading" class="loading hidden">
+    <div class="spinner"></div>
+    <span>Построение маршрута…</span>
+  </div>
+
+  <div id="toast" class="toast hidden"></div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.js"></script>
+  <script src="/js/api.js"></script>
+  <script src="/js/map.js"></script>
+  <script src="/js/ui.js"></script>
+  <script src="/js/app.js"></script>
+</body>
+</html>
