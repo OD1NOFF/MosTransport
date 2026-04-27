@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>МосТранспорт — Карта графа</title>
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"/>
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+
+  body {
+    font-family: 'Courier New', monospace;
+    background: #0d0d0d;
+    color: #e0e0e0;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+  }
+
+  #header {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    padding: 10px 18px;
+    background: #0d0d0d;
+    border-bottom: 1px solid #222;
+    z-index: 1000;
+    flex-shrink: 0;
+  }
+
+  #header h1 {
+    font-size: 13px;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    color: #ff4444;
+    font-weight: normal;
+  }
+
+  #stats {
+    font-size: 11px;
+    color: #555;
+    letter-spacing: 0.05em;
+  }
+
+  #stats span {
+    color: #aaa;
+    margin-right: 16px;
+  }
+
+  #legend {
+    display: flex;
+    gap: 14px;
+    margin-left: auto;
+    font-size: 11px;
+  }
+
+  .legend-item {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    color: #888;
+  }
+
+  .legend-dot {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    flex-shrink: 0;
+  }
+
+  #map { flex: 1; }
+
+  #status-bar {
+    padding: 5px 18px;
+    background: #0d0d0d;
+    border-top: 1px solid #222;
+    font-size: 11px;
+    color: #444;
+    letter-spacing: 0.05em;
+    flex-shrink: 0;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+
+  #status-text { color: #666; }
+
+  .spinner {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    border: 1px solid #333;
+    border-top-color: #ff4444;
+    border-radius: 50%;
+    animation: spin 0.8s linear infinite;
+  }
+
+  @keyframes spin { to { transform: rotate(360deg); } }
+
+  /* Leaflet overrides */
+  .leaflet-container { background: #111; }
+  .leaflet-tile { filter: invert(1) hue-rotate(180deg) saturate(0.7) brightness(0.75); }
+
+  .leaflet-popup-content-wrapper {
+    background: #1a1a1a;
+    border: 1px solid #333;
+    border-radius: 4px;
+    color: #e0e0e0;
+    font-family: 'Courier New', monospace;
+    font-size: 12px;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.8);
+  }
+
+  .leaflet-popup-tip { background: #1a1a1a; }
+  .leaflet-popup-close-button { color: #666 !important; }
+
+  .popup-name {
+    font-size: 13px;
+    font-weight: bold;
+    color: #fff;
+    margin-bottom: 6px;
+  }
+
+  .popup-meta {
+    color: #777;
+    font-size: 11px;
+    line-height: 1.8;
+  }
+
+  .popup-meta strong { color: #aaa; }
+
+  .popup-routes {
+    margin-top: 8px;
+    border-top: 1px solid #333;
+    padding-top: 6px;
+  }
+
+  .route-tag {
+    display: inline-block;
+    padding: 1px 6px;
+    border-radius: 2px;
+    font-size: 10px;
+    margin: 2px 2px 2px 0;
+    font-weight: bold;
+  }
+
+  #controls {
+    position: absolute;
+    top: 60px;
+    right: 12px;
+    z-index: 999;
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+  }
+
+  .ctrl-btn {
+    background: #1a1a1a;
+    border: 1px solid #333;
+    color: #aaa;
+    padding: 7px 12px;
+    font-family: 'Courier New', monospace;
+    font-size: 11px;
+    cursor: pointer;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    transition: all 0.15s;
+  }
+
+  .ctrl-btn:hover { background: #222; color: #fff; border-color: #555; }
+  .ctrl-btn.active { background: #1e0a0a; color: #ff4444; border-color: #ff4444; }
+</style>
+</head>
+<body>
+
+<div id="header">
+  <h1>МосТранспорт / граф сети</h1>
+  <div id="stats">
+    <span id="stat-stops">остановок: —</span>
+    <span id="stat-edges">связей: —</span>
+  </div>
+  <div id="legend">
+    <div class="legend-item"><div class="legend-dot" style="background:#e8423c"></div>метро</div>
+    <div class="legend-item"><div class="legend-dot" style="background:#3b82f6"></div>автобус</div>
+    <div class="legend-item"><div class="legend-dot" style="background:#22c55e"></div>трамвай</div>
+    <div class="legend-item"><div class="legend-dot" style="background:#a78bfa"></div>троллейбус</div>
+  </div>
+</div>
+
+<div id="map"></div>
+
+<div id="controls">
+  <button class="ctrl-btn active" id="btn-stops" onclick="toggleLayer('stops')">▪ Остановки</button>
+  <button class="ctrl-btn active" id="btn-edges" onclick="toggleLayer('edges')">▪ Связи</button>
+  <button class="ctrl-btn active" id="btn-transfers" onclick="toggleLayer('transfers')">▪ Пересадки</button>
+</div>
+
+<div id="status-bar">
+  <div class="spinner" id="spinner"></div>
+  <span id="status-text">Загрузка данных...</span>
+</div>
+
+<script>
+const COLORS = {
+  metro:      '#e8423c',
+  bus:        '#3b82f6',
+  tram:       '#22c55e',
+  trolleybus: '#a78bfa',
+  walk:       '#f59e0b',
+  transfer:   '#888888',
+};
+
+const TYPE_RU = {
+  metro: 'Метро', bus: 'Автобус', tram: 'Трамвай',
+  trolleybus: 'Троллейбус', walk: 'Пешком', transfer: 'Пересадка',
+};
+
+// ── Map init ──────────────────────────────────────────────────────────────────
+const map = L.map('map', {
+  center: [55.751, 37.618],
+  zoom: 12,
+  zoomControl: false,
+});
+
+L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+  attribution: '© OpenStreetMap',
+  maxZoom: 19,
+}).addTo(map);
+
+L.control.zoom({ position: 'topleft' }).addTo(map);
+
+// ── Layers ────────────────────────────────────────────────────────────────────
+const layerStops     = L.layerGroup().addTo(map);
+const layerEdges     = L.layerGroup().addTo(map);
+const layerTransfers = L.layerGroup().addTo(map);
+
+const layerMap = {
+  stops: layerStops,
+  edges: layerEdges,
+  transfers: layerTransfers,
+};
+
+const layerActive = { stops: true, edges: true, transfers: true };
+
+function toggleLayer(name) {
+  layerActive[name] = !layerActive[name];
+  const btn = document.getElementById('btn-' + name);
+  if (layerActive[name]) {
+    map.addLayer(layerMap[name]);
+    btn.classList.add('active');
+  } else {
+    map.removeLayer(layerMap[name]);
+    btn.classList.remove('active');
+  }
+}
+
+// ── Status helpers ────────────────────────────────────────────────────────────
+function setStatus(msg, loading = false) {
+  document.getElementById('status-text').textContent = msg;
+  document.getElementById('spinner').style.display = loading ? 'inline-block' : 'none';
+}
+
+// ── Stop marker ───────────────────────────────────────────────────────────────
+function stopColor(stop) {
+  return COLORS[stop.stop_type] || COLORS.bus;
+}
+
+function makeMarker(stop) {
+  const color = stopColor(stop);
+  const r = stop.stop_type === 'metro' ? 7 : 5;
+
+  const icon = L.divIcon({
+    className: '',
+    html: `<div style="
+      width:${r*2}px;height:${r*2}px;
+      border-radius:50%;
+      background:${color};
+      border:2px solid rgba(0,0,0,0.5);
+      box-shadow:0 0 6px ${color}88;
+    "></div>`,
+    iconSize: [r*2, r*2],
+    iconAnchor: [r, r],
+  });
+
+  const marker = L.marker([stop.latitude, stop.longitude], { icon });
+  marker.on('click', () => showStopPopup(stop, marker));
+  return marker;
+}
+
+async function showStopPopup(stop, marker) {
+  let routesHtml = '<div class="popup-meta" style="color:#555">загрузка маршрутов...</div>';
+  marker.bindPopup(popupHtml(stop, routesHtml)).openPopup();
+
+  try {
+    const res = await fetch(`/api/v1/stops/${stop.id}`);
+    const json = await res.json();
+    const routes = json.data?.routes || [];
+    if (routes.length) {
+      routesHtml = '<div class="popup-routes">';
+      routes.forEach(r => {
+        const c = COLORS[r.transport_type] || '#888';
+        routesHtml += `<span class="route-tag" style="background:${c}22;color:${c};border:1px solid ${c}55">${r.route_number}</span>`;
+      });
+      routesHtml += '</div>';
+    } else {
+      routesHtml = '<div class="popup-routes" style="color:#444;font-size:11px">маршруты не найдены</div>';
+    }
+  } catch(e) {
+    routesHtml = '';
+  }
+
+  marker.setPopupContent(popupHtml(stop, routesHtml));
+}
+
+function popupHtml(stop, routesExtra) {
+  const typeRu = TYPE_RU[stop.stop_type] || stop.stop_type;
+  const color = stopColor(stop);
+  return `
+    <div class="popup-name" style="color:${color}">${stop.name}</div>
+    <div class="popup-meta">
+      <strong>Тип:</strong> ${typeRu}<br>
+      <strong>ID:</strong> ${stop.id}<br>
+      <strong>Коорд:</strong> ${stop.latitude.toFixed(5)}, ${stop.longitude.toFixed(5)}
+      ${stop.metro_line ? `<br><strong>Линия:</strong> ${stop.metro_line}` : ''}
+    </div>
+    ${routesExtra}
+  `;
+}
+
+// ── Load all data ─────────────────────────────────────────────────────────────
+async function loadGraph() {
+  setStatus('Запрос к /api/v1/debug/graph...', true);
+
+  let stops, edges;
+
+  // Пробуем debug-эндпоинт (если добавлен), иначе fallback через nearby
+  try {
+    const res = await fetch('/api/v1/debug/graph');
+    if (res.ok) {
+      const json = await res.json();
+      stops = json.data.stops;
+      edges = json.data.edges;
+    } else {
+      throw new Error('no debug endpoint');
+    }
+  } catch(_) {
+    // Fallback: берём все остановки через /nearby с большим радиусом
+    setStatus('debug/graph недоступен, загружаю через /stops/nearby...', true);
+    const res = await fetch('/api/v1/stops/nearby?lat=55.751&lon=37.618&radius_m=25000&limit=500');
+    const json = await res.json();
+    stops = json.data?.stops || [];
+    edges = null;
+  }
+
+  setStatus(`Отрисовка ${stops.length} остановок...`, true);
+
+  // Индекс остановок
+  const stopIndex = {};
+  stops.forEach(s => stopIndex[s.id] = s);
+
+  // Маркеры
+  layerStops.clearLayers();
+  stops.forEach(s => layerStops.addLayer(makeMarker(s)));
+
+  // Рёбра
+  layerEdges.clearLayers();
+  layerTransfers.clearLayers();
+
+  if (edges) {
+    let edgeCount = 0, transferCount = 0;
+    edges.forEach(e => {
+      const from = stopIndex[e.from_id];
+      const to   = stopIndex[e.to_id];
+      if (!from || !to) return;
+
+      const isTransfer = e.type === 'transfer';
+      const color = isTransfer ? COLORS.transfer : (COLORS[e.transport_type] || COLORS.bus);
+
+      const line = L.polyline(
+        [[from.latitude, from.longitude], [to.latitude, to.longitude]],
+        {
+          color,
+          weight: isTransfer ? 1 : 2,
+          opacity: isTransfer ? 0.35 : 0.55,
+          dashArray: isTransfer ? '4 4' : null,
+        }
+      );
+
+      if (isTransfer) {
+        layerTransfers.addLayer(line);
+        transferCount++;
+      } else {
+        layerEdges.addLayer(line);
+        edgeCount++;
+      }
+    });
+
+    document.getElementById('stat-edges').textContent = `связей: ${edgeCount}`;
+    document.getElementById('stat-stops').textContent = `остановок: ${stops.length}`;
+    setStatus(`Загружено ${stops.length} остановок, ${edgeCount} рёбер, ${transferCount} пересадок`, false);
+  } else {
+    // Без edges рисуем просто маркеры
+    document.getElementById('stat-stops').textContent = `остановок: ${stops.length}`;
+    document.getElementById('stat-edges').textContent = 'связей: нет (добавь /debug/graph)';
+    setStatus(`Загружено ${stops.length} остановок. Для отображения связей добавь эндпоинт /api/v1/debug/graph`, false);
+  }
+}
+
+loadGraph();
+</script>
+</body>
+</html>

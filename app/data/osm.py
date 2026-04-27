@@ -52,7 +52,11 @@ class OsmDataSource(DataSource):
     async def fetch_stops(self) -> List[StopData]:
         """Загрузить станции Московского метрополитена."""
         async with httpx.AsyncClient(timeout=90.0) as client:
-            resp = await client.post(OVERPASS_URL, data={"data": METRO_STATIONS_QUERY})
+            resp = await client.post(
+                OVERPASS_URL,
+                data={"data": METRO_STATIONS_QUERY},
+                headers={"User-Agent": "MosTransport/0.1 (educational project, MAI)"},
+            )
             resp.raise_for_status()
             payload = resp.json()
 

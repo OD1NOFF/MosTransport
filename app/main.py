@@ -17,6 +17,8 @@ from app.config.settings import get_settings
 from app.db.connection import close_db, init_db
 from app.routing.graph import build_graph
 from app.utils.logger import get_logger
+from app.api import debug
+
 
 logger = get_logger(__name__)
 
@@ -68,6 +70,7 @@ app.include_router(routes.router, prefix="/api/v1", tags=["routes"])
 app.include_router(stops.router, prefix="/api/v1", tags=["stops"])
 app.include_router(geocode.router, prefix="/api/v1", tags=["geocode"])
 app.include_router(health.router, prefix="/api/v1", tags=["health"])
+app.include_router(debug.router, prefix="/api/v1", tags=["debug"])
 
 # Подключение клиентской подсистемы (веб-интерфейс, см. ТЗ п. 4.1.1, подсистема 4)
 static_dir = Path(__file__).parent.parent / "static"

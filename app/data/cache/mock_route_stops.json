@@ -1,0 +1,3962 @@
+[
+  {
+    "route_id": "mock_2000",
+    "stop_id": "metro_1000",
+    "sequence": 1
+  },
+  {
+    "route_id": "mock_2000",
+    "stop_id": "metro_1001",
+    "sequence": 2
+  },
+  {
+    "route_id": "mock_2000",
+    "stop_id": "metro_1002",
+    "sequence": 3
+  },
+  {
+    "route_id": "mock_2000",
+    "stop_id": "metro_1003",
+    "sequence": 4
+  },
+  {
+    "route_id": "mock_2000",
+    "stop_id": "metro_1004",
+    "sequence": 5
+  },
+  {
+    "route_id": "mock_2000",
+    "stop_id": "metro_1005",
+    "sequence": 6
+  },
+  {
+    "route_id": "mock_2000",
+    "stop_id": "metro_1006",
+    "sequence": 7
+  },
+  {
+    "route_id": "mock_2000",
+    "stop_id": "metro_1007",
+    "sequence": 8
+  },
+  {
+    "route_id": "mock_2000",
+    "stop_id": "metro_1008",
+    "sequence": 9
+  },
+  {
+    "route_id": "mock_2000",
+    "stop_id": "metro_1009",
+    "sequence": 10
+  },
+  {
+    "route_id": "mock_2000",
+    "stop_id": "metro_1010",
+    "sequence": 11
+  },
+  {
+    "route_id": "mock_2000",
+    "stop_id": "metro_1011",
+    "sequence": 12
+  },
+  {
+    "route_id": "mock_2000",
+    "stop_id": "metro_1012",
+    "sequence": 13
+  },
+  {
+    "route_id": "mock_2000",
+    "stop_id": "metro_1013",
+    "sequence": 14
+  },
+  {
+    "route_id": "mock_2000",
+    "stop_id": "metro_1014",
+    "sequence": 15
+  },
+  {
+    "route_id": "mock_2000",
+    "stop_id": "metro_1015",
+    "sequence": 16
+  },
+  {
+    "route_id": "mock_2000",
+    "stop_id": "metro_1016",
+    "sequence": 17
+  },
+  {
+    "route_id": "mock_2000",
+    "stop_id": "metro_1017",
+    "sequence": 18
+  },
+  {
+    "route_id": "mock_2000",
+    "stop_id": "metro_1018",
+    "sequence": 19
+  },
+  {
+    "route_id": "mock_2000",
+    "stop_id": "metro_1019",
+    "sequence": 20
+  },
+  {
+    "route_id": "mock_2000",
+    "stop_id": "metro_1020",
+    "sequence": 21
+  },
+  {
+    "route_id": "mock_2000",
+    "stop_id": "metro_1021",
+    "sequence": 22
+  },
+  {
+    "route_id": "mock_2000",
+    "stop_id": "metro_1022",
+    "sequence": 23
+  },
+  {
+    "route_id": "mock_2000",
+    "stop_id": "metro_1023",
+    "sequence": 24
+  },
+  {
+    "route_id": "mock_2000",
+    "stop_id": "metro_1024",
+    "sequence": 25
+  },
+  {
+    "route_id": "mock_2000",
+    "stop_id": "metro_1025",
+    "sequence": 26
+  },
+  {
+    "route_id": "mock_2001",
+    "stop_id": "metro_1026",
+    "sequence": 1
+  },
+  {
+    "route_id": "mock_2001",
+    "stop_id": "metro_1027",
+    "sequence": 2
+  },
+  {
+    "route_id": "mock_2001",
+    "stop_id": "metro_1028",
+    "sequence": 3
+  },
+  {
+    "route_id": "mock_2001",
+    "stop_id": "metro_1029",
+    "sequence": 4
+  },
+  {
+    "route_id": "mock_2001",
+    "stop_id": "metro_1030",
+    "sequence": 5
+  },
+  {
+    "route_id": "mock_2001",
+    "stop_id": "metro_1031",
+    "sequence": 6
+  },
+  {
+    "route_id": "mock_2001",
+    "stop_id": "metro_1032",
+    "sequence": 7
+  },
+  {
+    "route_id": "mock_2001",
+    "stop_id": "metro_1033",
+    "sequence": 8
+  },
+  {
+    "route_id": "mock_2001",
+    "stop_id": "metro_1034",
+    "sequence": 9
+  },
+  {
+    "route_id": "mock_2001",
+    "stop_id": "metro_1035",
+    "sequence": 10
+  },
+  {
+    "route_id": "mock_2001",
+    "stop_id": "metro_1036",
+    "sequence": 11
+  },
+  {
+    "route_id": "mock_2001",
+    "stop_id": "metro_1037",
+    "sequence": 12
+  },
+  {
+    "route_id": "mock_2001",
+    "stop_id": "metro_1038",
+    "sequence": 13
+  },
+  {
+    "route_id": "mock_2001",
+    "stop_id": "metro_1039",
+    "sequence": 14
+  },
+  {
+    "route_id": "mock_2001",
+    "stop_id": "metro_1040",
+    "sequence": 15
+  },
+  {
+    "route_id": "mock_2001",
+    "stop_id": "metro_1041",
+    "sequence": 16
+  },
+  {
+    "route_id": "mock_2001",
+    "stop_id": "metro_1042",
+    "sequence": 17
+  },
+  {
+    "route_id": "mock_2001",
+    "stop_id": "metro_1043",
+    "sequence": 18
+  },
+  {
+    "route_id": "mock_2001",
+    "stop_id": "metro_1044",
+    "sequence": 19
+  },
+  {
+    "route_id": "mock_2001",
+    "stop_id": "metro_1045",
+    "sequence": 20
+  },
+  {
+    "route_id": "mock_2001",
+    "stop_id": "metro_1046",
+    "sequence": 21
+  },
+  {
+    "route_id": "mock_2001",
+    "stop_id": "metro_1047",
+    "sequence": 22
+  },
+  {
+    "route_id": "mock_2001",
+    "stop_id": "metro_1048",
+    "sequence": 23
+  },
+  {
+    "route_id": "mock_2002",
+    "stop_id": "bus_1122",
+    "sequence": 1
+  },
+  {
+    "route_id": "mock_2002",
+    "stop_id": "bus_1082",
+    "sequence": 2
+  },
+  {
+    "route_id": "mock_2002",
+    "stop_id": "bus_1286",
+    "sequence": 3
+  },
+  {
+    "route_id": "mock_2002",
+    "stop_id": "bus_1154",
+    "sequence": 4
+  },
+  {
+    "route_id": "mock_2002",
+    "stop_id": "bus_1205",
+    "sequence": 5
+  },
+  {
+    "route_id": "mock_2002",
+    "stop_id": "bus_1276",
+    "sequence": 6
+  },
+  {
+    "route_id": "mock_2002",
+    "stop_id": "bus_1115",
+    "sequence": 7
+  },
+  {
+    "route_id": "mock_2002",
+    "stop_id": "bus_1228",
+    "sequence": 8
+  },
+  {
+    "route_id": "mock_2002",
+    "stop_id": "bus_1124",
+    "sequence": 9
+  },
+  {
+    "route_id": "mock_2002",
+    "stop_id": "bus_1245",
+    "sequence": 10
+  },
+  {
+    "route_id": "mock_2002",
+    "stop_id": "bus_1148",
+    "sequence": 11
+  },
+  {
+    "route_id": "mock_2002",
+    "stop_id": "bus_1103",
+    "sequence": 12
+  },
+  {
+    "route_id": "mock_2002",
+    "stop_id": "bus_1264",
+    "sequence": 13
+  },
+  {
+    "route_id": "mock_2002",
+    "stop_id": "bus_1210",
+    "sequence": 14
+  },
+  {
+    "route_id": "mock_2002",
+    "stop_id": "bus_1190",
+    "sequence": 15
+  },
+  {
+    "route_id": "mock_2002",
+    "stop_id": "bus_1162",
+    "sequence": 16
+  },
+  {
+    "route_id": "mock_2002",
+    "stop_id": "bus_1132",
+    "sequence": 17
+  },
+  {
+    "route_id": "mock_2002",
+    "stop_id": "bus_1150",
+    "sequence": 18
+  },
+  {
+    "route_id": "mock_2002",
+    "stop_id": "bus_1200",
+    "sequence": 19
+  },
+  {
+    "route_id": "mock_2003",
+    "stop_id": "bus_1099",
+    "sequence": 1
+  },
+  {
+    "route_id": "mock_2003",
+    "stop_id": "bus_1160",
+    "sequence": 2
+  },
+  {
+    "route_id": "mock_2003",
+    "stop_id": "bus_1274",
+    "sequence": 3
+  },
+  {
+    "route_id": "mock_2003",
+    "stop_id": "bus_1204",
+    "sequence": 4
+  },
+  {
+    "route_id": "mock_2003",
+    "stop_id": "bus_1090",
+    "sequence": 5
+  },
+  {
+    "route_id": "mock_2003",
+    "stop_id": "bus_1096",
+    "sequence": 6
+  },
+  {
+    "route_id": "mock_2003",
+    "stop_id": "bus_1142",
+    "sequence": 7
+  },
+  {
+    "route_id": "mock_2003",
+    "stop_id": "bus_1270",
+    "sequence": 8
+  },
+  {
+    "route_id": "mock_2003",
+    "stop_id": "bus_1223",
+    "sequence": 9
+  },
+  {
+    "route_id": "mock_2004",
+    "stop_id": "bus_1181",
+    "sequence": 1
+  },
+  {
+    "route_id": "mock_2004",
+    "stop_id": "bus_1152",
+    "sequence": 2
+  },
+  {
+    "route_id": "mock_2004",
+    "stop_id": "bus_1254",
+    "sequence": 3
+  },
+  {
+    "route_id": "mock_2004",
+    "stop_id": "bus_1120",
+    "sequence": 4
+  },
+  {
+    "route_id": "mock_2004",
+    "stop_id": "bus_1084",
+    "sequence": 5
+  },
+  {
+    "route_id": "mock_2004",
+    "stop_id": "bus_1212",
+    "sequence": 6
+  },
+  {
+    "route_id": "mock_2004",
+    "stop_id": "bus_1293",
+    "sequence": 7
+  },
+  {
+    "route_id": "mock_2004",
+    "stop_id": "bus_1102",
+    "sequence": 8
+  },
+  {
+    "route_id": "mock_2004",
+    "stop_id": "bus_1095",
+    "sequence": 9
+  },
+  {
+    "route_id": "mock_2004",
+    "stop_id": "bus_1131",
+    "sequence": 10
+  },
+  {
+    "route_id": "mock_2004",
+    "stop_id": "bus_1232",
+    "sequence": 11
+  },
+  {
+    "route_id": "mock_2004",
+    "stop_id": "bus_1262",
+    "sequence": 12
+  },
+  {
+    "route_id": "mock_2004",
+    "stop_id": "bus_1275",
+    "sequence": 13
+  },
+  {
+    "route_id": "mock_2004",
+    "stop_id": "bus_1076",
+    "sequence": 14
+  },
+  {
+    "route_id": "mock_2004",
+    "stop_id": "bus_1137",
+    "sequence": 15
+  },
+  {
+    "route_id": "mock_2004",
+    "stop_id": "bus_1168",
+    "sequence": 16
+  },
+  {
+    "route_id": "mock_2004",
+    "stop_id": "bus_1165",
+    "sequence": 17
+  },
+  {
+    "route_id": "mock_2005",
+    "stop_id": "bus_1159",
+    "sequence": 1
+  },
+  {
+    "route_id": "mock_2005",
+    "stop_id": "bus_1258",
+    "sequence": 2
+  },
+  {
+    "route_id": "mock_2005",
+    "stop_id": "bus_1154",
+    "sequence": 3
+  },
+  {
+    "route_id": "mock_2005",
+    "stop_id": "bus_1246",
+    "sequence": 4
+  },
+  {
+    "route_id": "mock_2005",
+    "stop_id": "bus_1196",
+    "sequence": 5
+  },
+  {
+    "route_id": "mock_2005",
+    "stop_id": "bus_1218",
+    "sequence": 6
+  },
+  {
+    "route_id": "mock_2005",
+    "stop_id": "bus_1281",
+    "sequence": 7
+  },
+  {
+    "route_id": "mock_2005",
+    "stop_id": "bus_1106",
+    "sequence": 8
+  },
+  {
+    "route_id": "mock_2005",
+    "stop_id": "bus_1289",
+    "sequence": 9
+  },
+  {
+    "route_id": "mock_2005",
+    "stop_id": "bus_1162",
+    "sequence": 10
+  },
+  {
+    "route_id": "mock_2006",
+    "stop_id": "bus_1213",
+    "sequence": 1
+  },
+  {
+    "route_id": "mock_2006",
+    "stop_id": "bus_1280",
+    "sequence": 2
+  },
+  {
+    "route_id": "mock_2006",
+    "stop_id": "bus_1208",
+    "sequence": 3
+  },
+  {
+    "route_id": "mock_2006",
+    "stop_id": "bus_1249",
+    "sequence": 4
+  },
+  {
+    "route_id": "mock_2006",
+    "stop_id": "bus_1139",
+    "sequence": 5
+  },
+  {
+    "route_id": "mock_2006",
+    "stop_id": "bus_1152",
+    "sequence": 6
+  },
+  {
+    "route_id": "mock_2006",
+    "stop_id": "bus_1084",
+    "sequence": 7
+  },
+  {
+    "route_id": "mock_2006",
+    "stop_id": "bus_1278",
+    "sequence": 8
+  },
+  {
+    "route_id": "mock_2006",
+    "stop_id": "bus_1081",
+    "sequence": 9
+  },
+  {
+    "route_id": "mock_2006",
+    "stop_id": "bus_1098",
+    "sequence": 10
+  },
+  {
+    "route_id": "mock_2006",
+    "stop_id": "bus_1197",
+    "sequence": 11
+  },
+  {
+    "route_id": "mock_2007",
+    "stop_id": "bus_1254",
+    "sequence": 1
+  },
+  {
+    "route_id": "mock_2007",
+    "stop_id": "bus_1155",
+    "sequence": 2
+  },
+  {
+    "route_id": "mock_2007",
+    "stop_id": "bus_1156",
+    "sequence": 3
+  },
+  {
+    "route_id": "mock_2007",
+    "stop_id": "bus_1086",
+    "sequence": 4
+  },
+  {
+    "route_id": "mock_2007",
+    "stop_id": "bus_1131",
+    "sequence": 5
+  },
+  {
+    "route_id": "mock_2007",
+    "stop_id": "bus_1294",
+    "sequence": 6
+  },
+  {
+    "route_id": "mock_2007",
+    "stop_id": "bus_1094",
+    "sequence": 7
+  },
+  {
+    "route_id": "mock_2007",
+    "stop_id": "bus_1235",
+    "sequence": 8
+  },
+  {
+    "route_id": "mock_2007",
+    "stop_id": "bus_1133",
+    "sequence": 9
+  },
+  {
+    "route_id": "mock_2007",
+    "stop_id": "bus_1269",
+    "sequence": 10
+  },
+  {
+    "route_id": "mock_2007",
+    "stop_id": "bus_1233",
+    "sequence": 11
+  },
+  {
+    "route_id": "mock_2007",
+    "stop_id": "bus_1283",
+    "sequence": 12
+  },
+  {
+    "route_id": "mock_2007",
+    "stop_id": "bus_1204",
+    "sequence": 13
+  },
+  {
+    "route_id": "mock_2007",
+    "stop_id": "bus_1097",
+    "sequence": 14
+  },
+  {
+    "route_id": "mock_2007",
+    "stop_id": "bus_1119",
+    "sequence": 15
+  },
+  {
+    "route_id": "mock_2007",
+    "stop_id": "bus_1130",
+    "sequence": 16
+  },
+  {
+    "route_id": "mock_2007",
+    "stop_id": "bus_1222",
+    "sequence": 17
+  },
+  {
+    "route_id": "mock_2007",
+    "stop_id": "bus_1191",
+    "sequence": 18
+  },
+  {
+    "route_id": "mock_2007",
+    "stop_id": "bus_1096",
+    "sequence": 19
+  },
+  {
+    "route_id": "mock_2008",
+    "stop_id": "metro_1049",
+    "sequence": 1
+  },
+  {
+    "route_id": "mock_2008",
+    "stop_id": "metro_1050",
+    "sequence": 2
+  },
+  {
+    "route_id": "mock_2008",
+    "stop_id": "metro_1051",
+    "sequence": 3
+  },
+  {
+    "route_id": "mock_2008",
+    "stop_id": "metro_1052",
+    "sequence": 4
+  },
+  {
+    "route_id": "mock_2008",
+    "stop_id": "metro_1053",
+    "sequence": 5
+  },
+  {
+    "route_id": "mock_2008",
+    "stop_id": "metro_1054",
+    "sequence": 6
+  },
+  {
+    "route_id": "mock_2008",
+    "stop_id": "metro_1055",
+    "sequence": 7
+  },
+  {
+    "route_id": "mock_2008",
+    "stop_id": "metro_1056",
+    "sequence": 8
+  },
+  {
+    "route_id": "mock_2008",
+    "stop_id": "metro_1057",
+    "sequence": 9
+  },
+  {
+    "route_id": "mock_2008",
+    "stop_id": "metro_1058",
+    "sequence": 10
+  },
+  {
+    "route_id": "mock_2008",
+    "stop_id": "metro_1059",
+    "sequence": 11
+  },
+  {
+    "route_id": "mock_2008",
+    "stop_id": "metro_1060",
+    "sequence": 12
+  },
+  {
+    "route_id": "mock_2008",
+    "stop_id": "metro_1061",
+    "sequence": 13
+  },
+  {
+    "route_id": "mock_2008",
+    "stop_id": "metro_1062",
+    "sequence": 14
+  },
+  {
+    "route_id": "mock_2008",
+    "stop_id": "metro_1063",
+    "sequence": 15
+  },
+  {
+    "route_id": "mock_2008",
+    "stop_id": "metro_1064",
+    "sequence": 16
+  },
+  {
+    "route_id": "mock_2008",
+    "stop_id": "metro_1065",
+    "sequence": 17
+  },
+  {
+    "route_id": "mock_2008",
+    "stop_id": "metro_1066",
+    "sequence": 18
+  },
+  {
+    "route_id": "mock_2008",
+    "stop_id": "metro_1067",
+    "sequence": 19
+  },
+  {
+    "route_id": "mock_2008",
+    "stop_id": "metro_1068",
+    "sequence": 20
+  },
+  {
+    "route_id": "mock_2008",
+    "stop_id": "metro_1069",
+    "sequence": 21
+  },
+  {
+    "route_id": "mock_2008",
+    "stop_id": "metro_1070",
+    "sequence": 22
+  },
+  {
+    "route_id": "mock_2008",
+    "stop_id": "metro_1071",
+    "sequence": 23
+  },
+  {
+    "route_id": "mock_2008",
+    "stop_id": "metro_1072",
+    "sequence": 24
+  },
+  {
+    "route_id": "mock_2008",
+    "stop_id": "metro_1073",
+    "sequence": 25
+  },
+  {
+    "route_id": "mock_2009",
+    "stop_id": "bus_1077",
+    "sequence": 1
+  },
+  {
+    "route_id": "mock_2009",
+    "stop_id": "bus_1223",
+    "sequence": 2
+  },
+  {
+    "route_id": "mock_2009",
+    "stop_id": "bus_1231",
+    "sequence": 3
+  },
+  {
+    "route_id": "mock_2009",
+    "stop_id": "bus_1234",
+    "sequence": 4
+  },
+  {
+    "route_id": "mock_2009",
+    "stop_id": "bus_1136",
+    "sequence": 5
+  },
+  {
+    "route_id": "mock_2009",
+    "stop_id": "bus_1287",
+    "sequence": 6
+  },
+  {
+    "route_id": "mock_2009",
+    "stop_id": "bus_1205",
+    "sequence": 7
+  },
+  {
+    "route_id": "mock_2009",
+    "stop_id": "bus_1177",
+    "sequence": 8
+  },
+  {
+    "route_id": "mock_2009",
+    "stop_id": "bus_1209",
+    "sequence": 9
+  },
+  {
+    "route_id": "mock_2009",
+    "stop_id": "bus_1291",
+    "sequence": 10
+  },
+  {
+    "route_id": "mock_2009",
+    "stop_id": "bus_1230",
+    "sequence": 11
+  },
+  {
+    "route_id": "mock_2009",
+    "stop_id": "bus_1228",
+    "sequence": 12
+  },
+  {
+    "route_id": "mock_2009",
+    "stop_id": "bus_1242",
+    "sequence": 13
+  },
+  {
+    "route_id": "mock_2010",
+    "stop_id": "bus_1165",
+    "sequence": 1
+  },
+  {
+    "route_id": "mock_2010",
+    "stop_id": "bus_1292",
+    "sequence": 2
+  },
+  {
+    "route_id": "mock_2010",
+    "stop_id": "bus_1241",
+    "sequence": 3
+  },
+  {
+    "route_id": "mock_2010",
+    "stop_id": "bus_1222",
+    "sequence": 4
+  },
+  {
+    "route_id": "mock_2010",
+    "stop_id": "bus_1167",
+    "sequence": 5
+  },
+  {
+    "route_id": "mock_2010",
+    "stop_id": "bus_1194",
+    "sequence": 6
+  },
+  {
+    "route_id": "mock_2010",
+    "stop_id": "bus_1088",
+    "sequence": 7
+  },
+  {
+    "route_id": "mock_2010",
+    "stop_id": "bus_1238",
+    "sequence": 8
+  },
+  {
+    "route_id": "mock_2010",
+    "stop_id": "bus_1237",
+    "sequence": 9
+  },
+  {
+    "route_id": "mock_2010",
+    "stop_id": "bus_1279",
+    "sequence": 10
+  },
+  {
+    "route_id": "mock_2010",
+    "stop_id": "bus_1123",
+    "sequence": 11
+  },
+  {
+    "route_id": "mock_2010",
+    "stop_id": "bus_1187",
+    "sequence": 12
+  },
+  {
+    "route_id": "mock_2010",
+    "stop_id": "bus_1261",
+    "sequence": 13
+  },
+  {
+    "route_id": "mock_2010",
+    "stop_id": "bus_1108",
+    "sequence": 14
+  },
+  {
+    "route_id": "mock_2011",
+    "stop_id": "bus_1093",
+    "sequence": 1
+  },
+  {
+    "route_id": "mock_2011",
+    "stop_id": "bus_1213",
+    "sequence": 2
+  },
+  {
+    "route_id": "mock_2011",
+    "stop_id": "bus_1280",
+    "sequence": 3
+  },
+  {
+    "route_id": "mock_2011",
+    "stop_id": "bus_1221",
+    "sequence": 4
+  },
+  {
+    "route_id": "mock_2011",
+    "stop_id": "bus_1179",
+    "sequence": 5
+  },
+  {
+    "route_id": "mock_2011",
+    "stop_id": "bus_1208",
+    "sequence": 6
+  },
+  {
+    "route_id": "mock_2011",
+    "stop_id": "bus_1087",
+    "sequence": 7
+  },
+  {
+    "route_id": "mock_2011",
+    "stop_id": "bus_1244",
+    "sequence": 8
+  },
+  {
+    "route_id": "mock_2011",
+    "stop_id": "bus_1224",
+    "sequence": 9
+  },
+  {
+    "route_id": "mock_2011",
+    "stop_id": "bus_1120",
+    "sequence": 10
+  },
+  {
+    "route_id": "mock_2011",
+    "stop_id": "bus_1084",
+    "sequence": 11
+  },
+  {
+    "route_id": "mock_2011",
+    "stop_id": "bus_1250",
+    "sequence": 12
+  },
+  {
+    "route_id": "mock_2011",
+    "stop_id": "bus_1116",
+    "sequence": 13
+  },
+  {
+    "route_id": "mock_2011",
+    "stop_id": "bus_1185",
+    "sequence": 14
+  },
+  {
+    "route_id": "mock_2011",
+    "stop_id": "bus_1098",
+    "sequence": 15
+  },
+  {
+    "route_id": "mock_2012",
+    "stop_id": "bus_1118",
+    "sequence": 1
+  },
+  {
+    "route_id": "mock_2012",
+    "stop_id": "bus_1139",
+    "sequence": 2
+  },
+  {
+    "route_id": "mock_2012",
+    "stop_id": "bus_1256",
+    "sequence": 3
+  },
+  {
+    "route_id": "mock_2012",
+    "stop_id": "bus_1257",
+    "sequence": 4
+  },
+  {
+    "route_id": "mock_2012",
+    "stop_id": "bus_1188",
+    "sequence": 5
+  },
+  {
+    "route_id": "mock_2012",
+    "stop_id": "bus_1217",
+    "sequence": 6
+  },
+  {
+    "route_id": "mock_2012",
+    "stop_id": "bus_1293",
+    "sequence": 7
+  },
+  {
+    "route_id": "mock_2012",
+    "stop_id": "bus_1102",
+    "sequence": 8
+  },
+  {
+    "route_id": "mock_2012",
+    "stop_id": "bus_1098",
+    "sequence": 9
+  },
+  {
+    "route_id": "mock_2013",
+    "stop_id": "bus_1123",
+    "sequence": 1
+  },
+  {
+    "route_id": "mock_2013",
+    "stop_id": "bus_1182",
+    "sequence": 2
+  },
+  {
+    "route_id": "mock_2013",
+    "stop_id": "bus_1187",
+    "sequence": 3
+  },
+  {
+    "route_id": "mock_2013",
+    "stop_id": "bus_1153",
+    "sequence": 4
+  },
+  {
+    "route_id": "mock_2013",
+    "stop_id": "bus_1136",
+    "sequence": 5
+  },
+  {
+    "route_id": "mock_2013",
+    "stop_id": "bus_1114",
+    "sequence": 6
+  },
+  {
+    "route_id": "mock_2013",
+    "stop_id": "bus_1154",
+    "sequence": 7
+  },
+  {
+    "route_id": "mock_2013",
+    "stop_id": "bus_1209",
+    "sequence": 8
+  },
+  {
+    "route_id": "mock_2013",
+    "stop_id": "bus_1149",
+    "sequence": 9
+  },
+  {
+    "route_id": "mock_2013",
+    "stop_id": "bus_1291",
+    "sequence": 10
+  },
+  {
+    "route_id": "mock_2013",
+    "stop_id": "bus_1141",
+    "sequence": 11
+  },
+  {
+    "route_id": "mock_2013",
+    "stop_id": "bus_1230",
+    "sequence": 12
+  },
+  {
+    "route_id": "mock_2013",
+    "stop_id": "bus_1228",
+    "sequence": 13
+  },
+  {
+    "route_id": "mock_2013",
+    "stop_id": "bus_1295",
+    "sequence": 14
+  },
+  {
+    "route_id": "mock_2013",
+    "stop_id": "bus_1148",
+    "sequence": 15
+  },
+  {
+    "route_id": "mock_2013",
+    "stop_id": "bus_1281",
+    "sequence": 16
+  },
+  {
+    "route_id": "mock_2014",
+    "stop_id": "bus_1278",
+    "sequence": 1
+  },
+  {
+    "route_id": "mock_2014",
+    "stop_id": "bus_1206",
+    "sequence": 2
+  },
+  {
+    "route_id": "mock_2014",
+    "stop_id": "bus_1170",
+    "sequence": 3
+  },
+  {
+    "route_id": "mock_2014",
+    "stop_id": "bus_1140",
+    "sequence": 4
+  },
+  {
+    "route_id": "mock_2014",
+    "stop_id": "bus_1282",
+    "sequence": 5
+  },
+  {
+    "route_id": "mock_2014",
+    "stop_id": "bus_1180",
+    "sequence": 6
+  },
+  {
+    "route_id": "mock_2014",
+    "stop_id": "bus_1251",
+    "sequence": 7
+  },
+  {
+    "route_id": "mock_2014",
+    "stop_id": "bus_1194",
+    "sequence": 8
+  },
+  {
+    "route_id": "mock_2014",
+    "stop_id": "bus_1089",
+    "sequence": 9
+  },
+  {
+    "route_id": "mock_2014",
+    "stop_id": "bus_1238",
+    "sequence": 10
+  },
+  {
+    "route_id": "mock_2014",
+    "stop_id": "bus_1173",
+    "sequence": 11
+  },
+  {
+    "route_id": "mock_2014",
+    "stop_id": "bus_1237",
+    "sequence": 12
+  },
+  {
+    "route_id": "mock_2014",
+    "stop_id": "bus_1279",
+    "sequence": 13
+  },
+  {
+    "route_id": "mock_2014",
+    "stop_id": "bus_1296",
+    "sequence": 14
+  },
+  {
+    "route_id": "mock_2015",
+    "stop_id": "bus_1258",
+    "sequence": 1
+  },
+  {
+    "route_id": "mock_2015",
+    "stop_id": "bus_1154",
+    "sequence": 2
+  },
+  {
+    "route_id": "mock_2015",
+    "stop_id": "bus_1211",
+    "sequence": 3
+  },
+  {
+    "route_id": "mock_2015",
+    "stop_id": "bus_1230",
+    "sequence": 4
+  },
+  {
+    "route_id": "mock_2015",
+    "stop_id": "bus_1218",
+    "sequence": 5
+  },
+  {
+    "route_id": "mock_2015",
+    "stop_id": "bus_1106",
+    "sequence": 6
+  },
+  {
+    "route_id": "mock_2015",
+    "stop_id": "bus_1210",
+    "sequence": 7
+  },
+  {
+    "route_id": "mock_2015",
+    "stop_id": "bus_1243",
+    "sequence": 8
+  },
+  {
+    "route_id": "mock_2015",
+    "stop_id": "bus_1162",
+    "sequence": 9
+  },
+  {
+    "route_id": "mock_2015",
+    "stop_id": "bus_1132",
+    "sequence": 10
+  },
+  {
+    "route_id": "mock_2015",
+    "stop_id": "bus_1150",
+    "sequence": 11
+  },
+  {
+    "route_id": "mock_2015",
+    "stop_id": "bus_1112",
+    "sequence": 12
+  },
+  {
+    "route_id": "mock_2016",
+    "stop_id": "bus_1169",
+    "sequence": 1
+  },
+  {
+    "route_id": "mock_2016",
+    "stop_id": "bus_1179",
+    "sequence": 2
+  },
+  {
+    "route_id": "mock_2016",
+    "stop_id": "bus_1181",
+    "sequence": 3
+  },
+  {
+    "route_id": "mock_2016",
+    "stop_id": "bus_1139",
+    "sequence": 4
+  },
+  {
+    "route_id": "mock_2016",
+    "stop_id": "bus_1253",
+    "sequence": 5
+  },
+  {
+    "route_id": "mock_2016",
+    "stop_id": "bus_1254",
+    "sequence": 6
+  },
+  {
+    "route_id": "mock_2016",
+    "stop_id": "bus_1257",
+    "sequence": 7
+  },
+  {
+    "route_id": "mock_2016",
+    "stop_id": "bus_1236",
+    "sequence": 8
+  },
+  {
+    "route_id": "mock_2016",
+    "stop_id": "bus_1188",
+    "sequence": 9
+  },
+  {
+    "route_id": "mock_2016",
+    "stop_id": "bus_1212",
+    "sequence": 10
+  },
+  {
+    "route_id": "mock_2016",
+    "stop_id": "bus_1144",
+    "sequence": 11
+  },
+  {
+    "route_id": "mock_2016",
+    "stop_id": "bus_1095",
+    "sequence": 12
+  },
+  {
+    "route_id": "mock_2016",
+    "stop_id": "bus_1094",
+    "sequence": 13
+  },
+  {
+    "route_id": "mock_2017",
+    "stop_id": "bus_1194",
+    "sequence": 1
+  },
+  {
+    "route_id": "mock_2017",
+    "stop_id": "bus_1091",
+    "sequence": 2
+  },
+  {
+    "route_id": "mock_2017",
+    "stop_id": "bus_1198",
+    "sequence": 3
+  },
+  {
+    "route_id": "mock_2017",
+    "stop_id": "bus_1225",
+    "sequence": 4
+  },
+  {
+    "route_id": "mock_2017",
+    "stop_id": "bus_1263",
+    "sequence": 5
+  },
+  {
+    "route_id": "mock_2017",
+    "stop_id": "bus_1127",
+    "sequence": 6
+  },
+  {
+    "route_id": "mock_2017",
+    "stop_id": "bus_1279",
+    "sequence": 7
+  },
+  {
+    "route_id": "mock_2017",
+    "stop_id": "bus_1216",
+    "sequence": 8
+  },
+  {
+    "route_id": "mock_2017",
+    "stop_id": "bus_1296",
+    "sequence": 9
+  },
+  {
+    "route_id": "mock_2017",
+    "stop_id": "bus_1145",
+    "sequence": 10
+  },
+  {
+    "route_id": "mock_2017",
+    "stop_id": "bus_1108",
+    "sequence": 11
+  },
+  {
+    "route_id": "mock_2017",
+    "stop_id": "bus_1080",
+    "sequence": 12
+  },
+  {
+    "route_id": "mock_2017",
+    "stop_id": "bus_1136",
+    "sequence": 13
+  },
+  {
+    "route_id": "mock_2017",
+    "stop_id": "bus_1100",
+    "sequence": 14
+  },
+  {
+    "route_id": "mock_2017",
+    "stop_id": "bus_1189",
+    "sequence": 15
+  },
+  {
+    "route_id": "mock_2017",
+    "stop_id": "bus_1149",
+    "sequence": 16
+  },
+  {
+    "route_id": "mock_2017",
+    "stop_id": "bus_1143",
+    "sequence": 17
+  },
+  {
+    "route_id": "mock_2017",
+    "stop_id": "bus_1230",
+    "sequence": 18
+  },
+  {
+    "route_id": "mock_2017",
+    "stop_id": "bus_1229",
+    "sequence": 19
+  },
+  {
+    "route_id": "mock_2017",
+    "stop_id": "bus_1246",
+    "sequence": 20
+  },
+  {
+    "route_id": "mock_2018",
+    "stop_id": "bus_1117",
+    "sequence": 1
+  },
+  {
+    "route_id": "mock_2018",
+    "stop_id": "bus_1139",
+    "sequence": 2
+  },
+  {
+    "route_id": "mock_2018",
+    "stop_id": "bus_1172",
+    "sequence": 3
+  },
+  {
+    "route_id": "mock_2018",
+    "stop_id": "bus_1135",
+    "sequence": 4
+  },
+  {
+    "route_id": "mock_2018",
+    "stop_id": "bus_1085",
+    "sequence": 5
+  },
+  {
+    "route_id": "mock_2018",
+    "stop_id": "bus_1104",
+    "sequence": 6
+  },
+  {
+    "route_id": "mock_2018",
+    "stop_id": "bus_1087",
+    "sequence": 7
+  },
+  {
+    "route_id": "mock_2018",
+    "stop_id": "bus_1256",
+    "sequence": 8
+  },
+  {
+    "route_id": "mock_2018",
+    "stop_id": "bus_1254",
+    "sequence": 9
+  },
+  {
+    "route_id": "mock_2018",
+    "stop_id": "bus_1244",
+    "sequence": 10
+  },
+  {
+    "route_id": "mock_2018",
+    "stop_id": "bus_1257",
+    "sequence": 11
+  },
+  {
+    "route_id": "mock_2018",
+    "stop_id": "bus_1188",
+    "sequence": 12
+  },
+  {
+    "route_id": "mock_2018",
+    "stop_id": "bus_1217",
+    "sequence": 13
+  },
+  {
+    "route_id": "mock_2018",
+    "stop_id": "bus_1293",
+    "sequence": 14
+  },
+  {
+    "route_id": "mock_2018",
+    "stop_id": "bus_1081",
+    "sequence": 15
+  },
+  {
+    "route_id": "mock_2018",
+    "stop_id": "bus_1235",
+    "sequence": 16
+  },
+  {
+    "route_id": "mock_2018",
+    "stop_id": "bus_1219",
+    "sequence": 17
+  },
+  {
+    "route_id": "mock_2018",
+    "stop_id": "bus_1275",
+    "sequence": 18
+  },
+  {
+    "route_id": "mock_2019",
+    "stop_id": "bus_1272",
+    "sequence": 1
+  },
+  {
+    "route_id": "mock_2019",
+    "stop_id": "bus_1137",
+    "sequence": 2
+  },
+  {
+    "route_id": "mock_2019",
+    "stop_id": "bus_1130",
+    "sequence": 3
+  },
+  {
+    "route_id": "mock_2019",
+    "stop_id": "bus_1252",
+    "sequence": 4
+  },
+  {
+    "route_id": "mock_2019",
+    "stop_id": "bus_1105",
+    "sequence": 5
+  },
+  {
+    "route_id": "mock_2019",
+    "stop_id": "bus_1183",
+    "sequence": 6
+  },
+  {
+    "route_id": "mock_2019",
+    "stop_id": "bus_1089",
+    "sequence": 7
+  },
+  {
+    "route_id": "mock_2019",
+    "stop_id": "bus_1091",
+    "sequence": 8
+  },
+  {
+    "route_id": "mock_2019",
+    "stop_id": "bus_1238",
+    "sequence": 9
+  },
+  {
+    "route_id": "mock_2019",
+    "stop_id": "bus_1198",
+    "sequence": 10
+  },
+  {
+    "route_id": "mock_2019",
+    "stop_id": "bus_1176",
+    "sequence": 11
+  },
+  {
+    "route_id": "mock_2019",
+    "stop_id": "bus_1127",
+    "sequence": 12
+  },
+  {
+    "route_id": "mock_2019",
+    "stop_id": "bus_1284",
+    "sequence": 13
+  },
+  {
+    "route_id": "mock_2019",
+    "stop_id": "bus_1182",
+    "sequence": 14
+  },
+  {
+    "route_id": "mock_2019",
+    "stop_id": "bus_1231",
+    "sequence": 15
+  },
+  {
+    "route_id": "mock_2020",
+    "stop_id": "bus_1165",
+    "sequence": 1
+  },
+  {
+    "route_id": "mock_2020",
+    "stop_id": "bus_1119",
+    "sequence": 2
+  },
+  {
+    "route_id": "mock_2020",
+    "stop_id": "bus_1194",
+    "sequence": 3
+  },
+  {
+    "route_id": "mock_2020",
+    "stop_id": "bus_1183",
+    "sequence": 4
+  },
+  {
+    "route_id": "mock_2020",
+    "stop_id": "bus_1225",
+    "sequence": 5
+  },
+  {
+    "route_id": "mock_2020",
+    "stop_id": "bus_1263",
+    "sequence": 6
+  },
+  {
+    "route_id": "mock_2020",
+    "stop_id": "bus_1127",
+    "sequence": 7
+  },
+  {
+    "route_id": "mock_2020",
+    "stop_id": "bus_1284",
+    "sequence": 8
+  },
+  {
+    "route_id": "mock_2020",
+    "stop_id": "bus_1077",
+    "sequence": 9
+  },
+  {
+    "route_id": "mock_2021",
+    "stop_id": "bus_1157",
+    "sequence": 1
+  },
+  {
+    "route_id": "mock_2021",
+    "stop_id": "bus_1225",
+    "sequence": 2
+  },
+  {
+    "route_id": "mock_2021",
+    "stop_id": "bus_1127",
+    "sequence": 3
+  },
+  {
+    "route_id": "mock_2021",
+    "stop_id": "bus_1248",
+    "sequence": 4
+  },
+  {
+    "route_id": "mock_2021",
+    "stop_id": "bus_1123",
+    "sequence": 5
+  },
+  {
+    "route_id": "mock_2021",
+    "stop_id": "bus_1082",
+    "sequence": 6
+  },
+  {
+    "route_id": "mock_2021",
+    "stop_id": "bus_1261",
+    "sequence": 7
+  },
+  {
+    "route_id": "mock_2021",
+    "stop_id": "bus_1153",
+    "sequence": 8
+  },
+  {
+    "route_id": "mock_2021",
+    "stop_id": "bus_1159",
+    "sequence": 9
+  },
+  {
+    "route_id": "mock_2021",
+    "stop_id": "bus_1100",
+    "sequence": 10
+  },
+  {
+    "route_id": "mock_2021",
+    "stop_id": "bus_1154",
+    "sequence": 11
+  },
+  {
+    "route_id": "mock_2021",
+    "stop_id": "bus_1209",
+    "sequence": 12
+  },
+  {
+    "route_id": "mock_2021",
+    "stop_id": "bus_1291",
+    "sequence": 13
+  },
+  {
+    "route_id": "mock_2021",
+    "stop_id": "bus_1228",
+    "sequence": 14
+  },
+  {
+    "route_id": "mock_2021",
+    "stop_id": "bus_1129",
+    "sequence": 15
+  },
+  {
+    "route_id": "mock_2021",
+    "stop_id": "bus_1218",
+    "sequence": 16
+  },
+  {
+    "route_id": "mock_2021",
+    "stop_id": "bus_1110",
+    "sequence": 17
+  },
+  {
+    "route_id": "mock_2022",
+    "stop_id": "bus_1252",
+    "sequence": 1
+  },
+  {
+    "route_id": "mock_2022",
+    "stop_id": "bus_1105",
+    "sequence": 2
+  },
+  {
+    "route_id": "mock_2022",
+    "stop_id": "bus_1191",
+    "sequence": 3
+  },
+  {
+    "route_id": "mock_2022",
+    "stop_id": "bus_1127",
+    "sequence": 4
+  },
+  {
+    "route_id": "mock_2022",
+    "stop_id": "bus_1077",
+    "sequence": 5
+  },
+  {
+    "route_id": "mock_2022",
+    "stop_id": "bus_1122",
+    "sequence": 6
+  },
+  {
+    "route_id": "mock_2022",
+    "stop_id": "bus_1216",
+    "sequence": 7
+  },
+  {
+    "route_id": "mock_2022",
+    "stop_id": "bus_1192",
+    "sequence": 8
+  },
+  {
+    "route_id": "mock_2022",
+    "stop_id": "bus_1080",
+    "sequence": 9
+  },
+  {
+    "route_id": "mock_2022",
+    "stop_id": "bus_1287",
+    "sequence": 10
+  },
+  {
+    "route_id": "mock_2022",
+    "stop_id": "bus_1276",
+    "sequence": 11
+  },
+  {
+    "route_id": "mock_2022",
+    "stop_id": "bus_1209",
+    "sequence": 12
+  },
+  {
+    "route_id": "mock_2023",
+    "stop_id": "bus_1181",
+    "sequence": 1
+  },
+  {
+    "route_id": "mock_2023",
+    "stop_id": "bus_1152",
+    "sequence": 2
+  },
+  {
+    "route_id": "mock_2023",
+    "stop_id": "bus_1256",
+    "sequence": 3
+  },
+  {
+    "route_id": "mock_2023",
+    "stop_id": "bus_1244",
+    "sequence": 4
+  },
+  {
+    "route_id": "mock_2023",
+    "stop_id": "bus_1224",
+    "sequence": 5
+  },
+  {
+    "route_id": "mock_2023",
+    "stop_id": "bus_1075",
+    "sequence": 6
+  },
+  {
+    "route_id": "mock_2023",
+    "stop_id": "bus_1188",
+    "sequence": 7
+  },
+  {
+    "route_id": "mock_2023",
+    "stop_id": "bus_1121",
+    "sequence": 8
+  },
+  {
+    "route_id": "mock_2023",
+    "stop_id": "bus_1081",
+    "sequence": 9
+  },
+  {
+    "route_id": "mock_2023",
+    "stop_id": "bus_1098",
+    "sequence": 10
+  },
+  {
+    "route_id": "mock_2023",
+    "stop_id": "bus_1161",
+    "sequence": 11
+  },
+  {
+    "route_id": "mock_2023",
+    "stop_id": "bus_1131",
+    "sequence": 12
+  },
+  {
+    "route_id": "mock_2023",
+    "stop_id": "bus_1094",
+    "sequence": 13
+  },
+  {
+    "route_id": "mock_2023",
+    "stop_id": "bus_1235",
+    "sequence": 14
+  },
+  {
+    "route_id": "mock_2023",
+    "stop_id": "bus_1137",
+    "sequence": 15
+  },
+  {
+    "route_id": "mock_2023",
+    "stop_id": "bus_1165",
+    "sequence": 16
+  },
+  {
+    "route_id": "mock_2023",
+    "stop_id": "bus_1292",
+    "sequence": 17
+  },
+  {
+    "route_id": "mock_2023",
+    "stop_id": "bus_1283",
+    "sequence": 18
+  },
+  {
+    "route_id": "mock_2023",
+    "stop_id": "bus_1204",
+    "sequence": 19
+  },
+  {
+    "route_id": "mock_2024",
+    "stop_id": "bus_1173",
+    "sequence": 1
+  },
+  {
+    "route_id": "mock_2024",
+    "stop_id": "bus_1265",
+    "sequence": 2
+  },
+  {
+    "route_id": "mock_2024",
+    "stop_id": "bus_1279",
+    "sequence": 3
+  },
+  {
+    "route_id": "mock_2024",
+    "stop_id": "bus_1248",
+    "sequence": 4
+  },
+  {
+    "route_id": "mock_2024",
+    "stop_id": "bus_1077",
+    "sequence": 5
+  },
+  {
+    "route_id": "mock_2024",
+    "stop_id": "bus_1145",
+    "sequence": 6
+  },
+  {
+    "route_id": "mock_2024",
+    "stop_id": "bus_1290",
+    "sequence": 7
+  },
+  {
+    "route_id": "mock_2024",
+    "stop_id": "bus_1261",
+    "sequence": 8
+  },
+  {
+    "route_id": "mock_2024",
+    "stop_id": "bus_1288",
+    "sequence": 9
+  },
+  {
+    "route_id": "mock_2024",
+    "stop_id": "bus_1134",
+    "sequence": 10
+  },
+  {
+    "route_id": "mock_2024",
+    "stop_id": "bus_1100",
+    "sequence": 11
+  },
+  {
+    "route_id": "mock_2024",
+    "stop_id": "bus_1291",
+    "sequence": 12
+  },
+  {
+    "route_id": "mock_2024",
+    "stop_id": "bus_1228",
+    "sequence": 13
+  },
+  {
+    "route_id": "mock_2025",
+    "stop_id": "bus_1251",
+    "sequence": 1
+  },
+  {
+    "route_id": "mock_2025",
+    "stop_id": "bus_1167",
+    "sequence": 2
+  },
+  {
+    "route_id": "mock_2025",
+    "stop_id": "bus_1183",
+    "sequence": 3
+  },
+  {
+    "route_id": "mock_2025",
+    "stop_id": "bus_1198",
+    "sequence": 4
+  },
+  {
+    "route_id": "mock_2025",
+    "stop_id": "bus_1225",
+    "sequence": 5
+  },
+  {
+    "route_id": "mock_2025",
+    "stop_id": "bus_1176",
+    "sequence": 6
+  },
+  {
+    "route_id": "mock_2025",
+    "stop_id": "bus_1226",
+    "sequence": 7
+  },
+  {
+    "route_id": "mock_2025",
+    "stop_id": "bus_1263",
+    "sequence": 8
+  },
+  {
+    "route_id": "mock_2025",
+    "stop_id": "bus_1077",
+    "sequence": 9
+  },
+  {
+    "route_id": "mock_2025",
+    "stop_id": "bus_1123",
+    "sequence": 10
+  },
+  {
+    "route_id": "mock_2025",
+    "stop_id": "bus_1145",
+    "sequence": 11
+  },
+  {
+    "route_id": "mock_2025",
+    "stop_id": "bus_1108",
+    "sequence": 12
+  },
+  {
+    "route_id": "mock_2025",
+    "stop_id": "bus_1288",
+    "sequence": 13
+  },
+  {
+    "route_id": "mock_2025",
+    "stop_id": "bus_1100",
+    "sequence": 14
+  },
+  {
+    "route_id": "mock_2025",
+    "stop_id": "bus_1286",
+    "sequence": 15
+  },
+  {
+    "route_id": "mock_2025",
+    "stop_id": "bus_1149",
+    "sequence": 16
+  },
+  {
+    "route_id": "mock_2026",
+    "stop_id": "bus_1164",
+    "sequence": 1
+  },
+  {
+    "route_id": "mock_2026",
+    "stop_id": "bus_1294",
+    "sequence": 2
+  },
+  {
+    "route_id": "mock_2026",
+    "stop_id": "bus_1094",
+    "sequence": 3
+  },
+  {
+    "route_id": "mock_2026",
+    "stop_id": "bus_1219",
+    "sequence": 4
+  },
+  {
+    "route_id": "mock_2026",
+    "stop_id": "bus_1160",
+    "sequence": 5
+  },
+  {
+    "route_id": "mock_2026",
+    "stop_id": "bus_1204",
+    "sequence": 6
+  },
+  {
+    "route_id": "mock_2026",
+    "stop_id": "bus_1130",
+    "sequence": 7
+  },
+  {
+    "route_id": "mock_2026",
+    "stop_id": "bus_1191",
+    "sequence": 8
+  },
+  {
+    "route_id": "mock_2026",
+    "stop_id": "bus_1270",
+    "sequence": 9
+  },
+  {
+    "route_id": "mock_2026",
+    "stop_id": "bus_1223",
+    "sequence": 10
+  },
+  {
+    "route_id": "mock_2026",
+    "stop_id": "bus_1259",
+    "sequence": 11
+  },
+  {
+    "route_id": "mock_2026",
+    "stop_id": "bus_1216",
+    "sequence": 12
+  },
+  {
+    "route_id": "mock_2026",
+    "stop_id": "bus_1111",
+    "sequence": 13
+  },
+  {
+    "route_id": "mock_2027",
+    "stop_id": "bus_1290",
+    "sequence": 1
+  },
+  {
+    "route_id": "mock_2027",
+    "stop_id": "bus_1153",
+    "sequence": 2
+  },
+  {
+    "route_id": "mock_2027",
+    "stop_id": "bus_1234",
+    "sequence": 3
+  },
+  {
+    "route_id": "mock_2027",
+    "stop_id": "bus_1288",
+    "sequence": 4
+  },
+  {
+    "route_id": "mock_2027",
+    "stop_id": "bus_1134",
+    "sequence": 5
+  },
+  {
+    "route_id": "mock_2027",
+    "stop_id": "bus_1136",
+    "sequence": 6
+  },
+  {
+    "route_id": "mock_2027",
+    "stop_id": "bus_1100",
+    "sequence": 7
+  },
+  {
+    "route_id": "mock_2027",
+    "stop_id": "bus_1211",
+    "sequence": 8
+  },
+  {
+    "route_id": "mock_2027",
+    "stop_id": "bus_1143",
+    "sequence": 9
+  },
+  {
+    "route_id": "mock_2027",
+    "stop_id": "bus_1228",
+    "sequence": 10
+  },
+  {
+    "route_id": "mock_2027",
+    "stop_id": "bus_1246",
+    "sequence": 11
+  },
+  {
+    "route_id": "mock_2027",
+    "stop_id": "bus_1218",
+    "sequence": 12
+  },
+  {
+    "route_id": "mock_2027",
+    "stop_id": "bus_1240",
+    "sequence": 13
+  },
+  {
+    "route_id": "mock_2027",
+    "stop_id": "bus_1214",
+    "sequence": 14
+  },
+  {
+    "route_id": "mock_2027",
+    "stop_id": "bus_1210",
+    "sequence": 15
+  },
+  {
+    "route_id": "mock_2027",
+    "stop_id": "bus_1243",
+    "sequence": 16
+  },
+  {
+    "route_id": "mock_2027",
+    "stop_id": "bus_1162",
+    "sequence": 17
+  },
+  {
+    "route_id": "mock_2028",
+    "stop_id": "bus_1203",
+    "sequence": 1
+  },
+  {
+    "route_id": "mock_2028",
+    "stop_id": "bus_1088",
+    "sequence": 2
+  },
+  {
+    "route_id": "mock_2028",
+    "stop_id": "bus_1277",
+    "sequence": 3
+  },
+  {
+    "route_id": "mock_2028",
+    "stop_id": "bus_1174",
+    "sequence": 4
+  },
+  {
+    "route_id": "mock_2028",
+    "stop_id": "bus_1238",
+    "sequence": 5
+  },
+  {
+    "route_id": "mock_2028",
+    "stop_id": "bus_1226",
+    "sequence": 6
+  },
+  {
+    "route_id": "mock_2028",
+    "stop_id": "bus_1284",
+    "sequence": 7
+  },
+  {
+    "route_id": "mock_2028",
+    "stop_id": "bus_1248",
+    "sequence": 8
+  },
+  {
+    "route_id": "mock_2028",
+    "stop_id": "bus_1123",
+    "sequence": 9
+  },
+  {
+    "route_id": "mock_2028",
+    "stop_id": "bus_1187",
+    "sequence": 10
+  },
+  {
+    "route_id": "mock_2028",
+    "stop_id": "bus_1296",
+    "sequence": 11
+  },
+  {
+    "route_id": "mock_2028",
+    "stop_id": "bus_1145",
+    "sequence": 12
+  },
+  {
+    "route_id": "mock_2028",
+    "stop_id": "bus_1153",
+    "sequence": 13
+  },
+  {
+    "route_id": "mock_2028",
+    "stop_id": "bus_1288",
+    "sequence": 14
+  },
+  {
+    "route_id": "mock_2028",
+    "stop_id": "bus_1134",
+    "sequence": 15
+  },
+  {
+    "route_id": "mock_2028",
+    "stop_id": "bus_1258",
+    "sequence": 16
+  },
+  {
+    "route_id": "mock_2028",
+    "stop_id": "bus_1287",
+    "sequence": 17
+  },
+  {
+    "route_id": "mock_2028",
+    "stop_id": "bus_1166",
+    "sequence": 18
+  },
+  {
+    "route_id": "mock_2028",
+    "stop_id": "bus_1189",
+    "sequence": 19
+  },
+  {
+    "route_id": "mock_2029",
+    "stop_id": "bus_1170",
+    "sequence": 1
+  },
+  {
+    "route_id": "mock_2029",
+    "stop_id": "bus_1140",
+    "sequence": 2
+  },
+  {
+    "route_id": "mock_2029",
+    "stop_id": "bus_1241",
+    "sequence": 3
+  },
+  {
+    "route_id": "mock_2029",
+    "stop_id": "bus_1128",
+    "sequence": 4
+  },
+  {
+    "route_id": "mock_2029",
+    "stop_id": "bus_1199",
+    "sequence": 5
+  },
+  {
+    "route_id": "mock_2029",
+    "stop_id": "bus_1194",
+    "sequence": 6
+  },
+  {
+    "route_id": "mock_2029",
+    "stop_id": "bus_1088",
+    "sequence": 7
+  },
+  {
+    "route_id": "mock_2029",
+    "stop_id": "bus_1238",
+    "sequence": 8
+  },
+  {
+    "route_id": "mock_2029",
+    "stop_id": "bus_1175",
+    "sequence": 9
+  },
+  {
+    "route_id": "mock_2029",
+    "stop_id": "bus_1198",
+    "sequence": 10
+  },
+  {
+    "route_id": "mock_2029",
+    "stop_id": "bus_1226",
+    "sequence": 11
+  },
+  {
+    "route_id": "mock_2029",
+    "stop_id": "bus_1284",
+    "sequence": 12
+  },
+  {
+    "route_id": "mock_2029",
+    "stop_id": "bus_1237",
+    "sequence": 13
+  },
+  {
+    "route_id": "mock_2029",
+    "stop_id": "bus_1271",
+    "sequence": 14
+  },
+  {
+    "route_id": "mock_2030",
+    "stop_id": "bus_1262",
+    "sequence": 1
+  },
+  {
+    "route_id": "mock_2030",
+    "stop_id": "bus_1275",
+    "sequence": 2
+  },
+  {
+    "route_id": "mock_2030",
+    "stop_id": "bus_1201",
+    "sequence": 3
+  },
+  {
+    "route_id": "mock_2030",
+    "stop_id": "bus_1292",
+    "sequence": 4
+  },
+  {
+    "route_id": "mock_2030",
+    "stop_id": "bus_1204",
+    "sequence": 5
+  },
+  {
+    "route_id": "mock_2030",
+    "stop_id": "bus_1130",
+    "sequence": 6
+  },
+  {
+    "route_id": "mock_2030",
+    "stop_id": "bus_1252",
+    "sequence": 7
+  },
+  {
+    "route_id": "mock_2030",
+    "stop_id": "bus_1222",
+    "sequence": 8
+  },
+  {
+    "route_id": "mock_2030",
+    "stop_id": "bus_1183",
+    "sequence": 9
+  },
+  {
+    "route_id": "mock_2030",
+    "stop_id": "bus_1203",
+    "sequence": 10
+  },
+  {
+    "route_id": "mock_2030",
+    "stop_id": "bus_1091",
+    "sequence": 11
+  },
+  {
+    "route_id": "mock_2030",
+    "stop_id": "bus_1077",
+    "sequence": 12
+  },
+  {
+    "route_id": "mock_2030",
+    "stop_id": "bus_1223",
+    "sequence": 13
+  },
+  {
+    "route_id": "mock_2030",
+    "stop_id": "bus_1259",
+    "sequence": 14
+  },
+  {
+    "route_id": "mock_2030",
+    "stop_id": "bus_1216",
+    "sequence": 15
+  },
+  {
+    "route_id": "mock_2031",
+    "stop_id": "bus_1275",
+    "sequence": 1
+  },
+  {
+    "route_id": "mock_2031",
+    "stop_id": "bus_1099",
+    "sequence": 2
+  },
+  {
+    "route_id": "mock_2031",
+    "stop_id": "bus_1137",
+    "sequence": 3
+  },
+  {
+    "route_id": "mock_2031",
+    "stop_id": "bus_1165",
+    "sequence": 4
+  },
+  {
+    "route_id": "mock_2031",
+    "stop_id": "bus_1160",
+    "sequence": 5
+  },
+  {
+    "route_id": "mock_2031",
+    "stop_id": "bus_1204",
+    "sequence": 6
+  },
+  {
+    "route_id": "mock_2031",
+    "stop_id": "bus_1252",
+    "sequence": 7
+  },
+  {
+    "route_id": "mock_2031",
+    "stop_id": "bus_1105",
+    "sequence": 8
+  },
+  {
+    "route_id": "mock_2031",
+    "stop_id": "bus_1198",
+    "sequence": 9
+  },
+  {
+    "route_id": "mock_2031",
+    "stop_id": "bus_1225",
+    "sequence": 10
+  },
+  {
+    "route_id": "mock_2031",
+    "stop_id": "bus_1092",
+    "sequence": 11
+  },
+  {
+    "route_id": "mock_2031",
+    "stop_id": "bus_1231",
+    "sequence": 12
+  },
+  {
+    "route_id": "mock_2032",
+    "stop_id": "bus_1091",
+    "sequence": 1
+  },
+  {
+    "route_id": "mock_2032",
+    "stop_id": "bus_1157",
+    "sequence": 2
+  },
+  {
+    "route_id": "mock_2032",
+    "stop_id": "bus_1284",
+    "sequence": 3
+  },
+  {
+    "route_id": "mock_2032",
+    "stop_id": "bus_1077",
+    "sequence": 4
+  },
+  {
+    "route_id": "mock_2032",
+    "stop_id": "bus_1092",
+    "sequence": 5
+  },
+  {
+    "route_id": "mock_2032",
+    "stop_id": "bus_1216",
+    "sequence": 6
+  },
+  {
+    "route_id": "mock_2032",
+    "stop_id": "bus_1182",
+    "sequence": 7
+  },
+  {
+    "route_id": "mock_2032",
+    "stop_id": "bus_1082",
+    "sequence": 8
+  },
+  {
+    "route_id": "mock_2032",
+    "stop_id": "bus_1261",
+    "sequence": 9
+  },
+  {
+    "route_id": "mock_2032",
+    "stop_id": "bus_1159",
+    "sequence": 10
+  },
+  {
+    "route_id": "mock_2032",
+    "stop_id": "bus_1258",
+    "sequence": 11
+  },
+  {
+    "route_id": "mock_2032",
+    "stop_id": "bus_1287",
+    "sequence": 12
+  },
+  {
+    "route_id": "mock_2032",
+    "stop_id": "bus_1205",
+    "sequence": 13
+  },
+  {
+    "route_id": "mock_2032",
+    "stop_id": "bus_1246",
+    "sequence": 14
+  },
+  {
+    "route_id": "mock_2032",
+    "stop_id": "bus_1129",
+    "sequence": 15
+  },
+  {
+    "route_id": "mock_2032",
+    "stop_id": "bus_1281",
+    "sequence": 16
+  },
+  {
+    "route_id": "mock_2032",
+    "stop_id": "bus_1110",
+    "sequence": 17
+  },
+  {
+    "route_id": "mock_2032",
+    "stop_id": "bus_1162",
+    "sequence": 18
+  },
+  {
+    "route_id": "mock_2033",
+    "stop_id": "bus_1272",
+    "sequence": 1
+  },
+  {
+    "route_id": "mock_2033",
+    "stop_id": "bus_1233",
+    "sequence": 2
+  },
+  {
+    "route_id": "mock_2033",
+    "stop_id": "bus_1165",
+    "sequence": 3
+  },
+  {
+    "route_id": "mock_2033",
+    "stop_id": "bus_1251",
+    "sequence": 4
+  },
+  {
+    "route_id": "mock_2033",
+    "stop_id": "bus_1222",
+    "sequence": 5
+  },
+  {
+    "route_id": "mock_2033",
+    "stop_id": "bus_1105",
+    "sequence": 6
+  },
+  {
+    "route_id": "mock_2033",
+    "stop_id": "bus_1091",
+    "sequence": 7
+  },
+  {
+    "route_id": "mock_2033",
+    "stop_id": "bus_1173",
+    "sequence": 8
+  },
+  {
+    "route_id": "mock_2033",
+    "stop_id": "bus_1198",
+    "sequence": 9
+  },
+  {
+    "route_id": "mock_2033",
+    "stop_id": "bus_1225",
+    "sequence": 10
+  },
+  {
+    "route_id": "mock_2033",
+    "stop_id": "bus_1176",
+    "sequence": 11
+  },
+  {
+    "route_id": "mock_2033",
+    "stop_id": "bus_1265",
+    "sequence": 12
+  },
+  {
+    "route_id": "mock_2033",
+    "stop_id": "bus_1237",
+    "sequence": 13
+  },
+  {
+    "route_id": "mock_2033",
+    "stop_id": "bus_1077",
+    "sequence": 14
+  },
+  {
+    "route_id": "mock_2033",
+    "stop_id": "bus_1092",
+    "sequence": 15
+  },
+  {
+    "route_id": "mock_2033",
+    "stop_id": "bus_1234",
+    "sequence": 16
+  },
+  {
+    "route_id": "mock_2034",
+    "stop_id": "bus_1094",
+    "sequence": 1
+  },
+  {
+    "route_id": "mock_2034",
+    "stop_id": "bus_1235",
+    "sequence": 2
+  },
+  {
+    "route_id": "mock_2034",
+    "stop_id": "bus_1262",
+    "sequence": 3
+  },
+  {
+    "route_id": "mock_2034",
+    "stop_id": "bus_1215",
+    "sequence": 4
+  },
+  {
+    "route_id": "mock_2034",
+    "stop_id": "bus_1147",
+    "sequence": 5
+  },
+  {
+    "route_id": "mock_2034",
+    "stop_id": "bus_1137",
+    "sequence": 6
+  },
+  {
+    "route_id": "mock_2034",
+    "stop_id": "bus_1168",
+    "sequence": 7
+  },
+  {
+    "route_id": "mock_2034",
+    "stop_id": "bus_1160",
+    "sequence": 8
+  },
+  {
+    "route_id": "mock_2034",
+    "stop_id": "bus_1283",
+    "sequence": 9
+  },
+  {
+    "route_id": "mock_2034",
+    "stop_id": "bus_1119",
+    "sequence": 10
+  },
+  {
+    "route_id": "mock_2034",
+    "stop_id": "bus_1252",
+    "sequence": 11
+  },
+  {
+    "route_id": "mock_2034",
+    "stop_id": "bus_1171",
+    "sequence": 12
+  },
+  {
+    "route_id": "mock_2034",
+    "stop_id": "bus_1194",
+    "sequence": 13
+  },
+  {
+    "route_id": "mock_2034",
+    "stop_id": "bus_1174",
+    "sequence": 14
+  },
+  {
+    "route_id": "mock_2034",
+    "stop_id": "bus_1198",
+    "sequence": 15
+  },
+  {
+    "route_id": "mock_2034",
+    "stop_id": "bus_1265",
+    "sequence": 16
+  },
+  {
+    "route_id": "mock_2034",
+    "stop_id": "bus_1223",
+    "sequence": 17
+  },
+  {
+    "route_id": "mock_2034",
+    "stop_id": "bus_1259",
+    "sequence": 18
+  },
+  {
+    "route_id": "mock_2034",
+    "stop_id": "bus_1231",
+    "sequence": 19
+  },
+  {
+    "route_id": "mock_2034",
+    "stop_id": "bus_1159",
+    "sequence": 20
+  },
+  {
+    "route_id": "mock_2035",
+    "stop_id": "bus_1271",
+    "sequence": 1
+  },
+  {
+    "route_id": "mock_2035",
+    "stop_id": "bus_1145",
+    "sequence": 2
+  },
+  {
+    "route_id": "mock_2035",
+    "stop_id": "bus_1261",
+    "sequence": 3
+  },
+  {
+    "route_id": "mock_2035",
+    "stop_id": "bus_1108",
+    "sequence": 4
+  },
+  {
+    "route_id": "mock_2035",
+    "stop_id": "bus_1153",
+    "sequence": 5
+  },
+  {
+    "route_id": "mock_2035",
+    "stop_id": "bus_1136",
+    "sequence": 6
+  },
+  {
+    "route_id": "mock_2035",
+    "stop_id": "bus_1100",
+    "sequence": 7
+  },
+  {
+    "route_id": "mock_2035",
+    "stop_id": "bus_1143",
+    "sequence": 8
+  },
+  {
+    "route_id": "mock_2036",
+    "stop_id": "bus_1184",
+    "sequence": 1
+  },
+  {
+    "route_id": "mock_2036",
+    "stop_id": "bus_1155",
+    "sequence": 2
+  },
+  {
+    "route_id": "mock_2036",
+    "stop_id": "bus_1084",
+    "sequence": 3
+  },
+  {
+    "route_id": "mock_2036",
+    "stop_id": "bus_1188",
+    "sequence": 4
+  },
+  {
+    "route_id": "mock_2036",
+    "stop_id": "bus_1212",
+    "sequence": 5
+  },
+  {
+    "route_id": "mock_2036",
+    "stop_id": "bus_1293",
+    "sequence": 6
+  },
+  {
+    "route_id": "mock_2036",
+    "stop_id": "bus_1095",
+    "sequence": 7
+  },
+  {
+    "route_id": "mock_2036",
+    "stop_id": "bus_1131",
+    "sequence": 8
+  },
+  {
+    "route_id": "mock_2036",
+    "stop_id": "bus_1094",
+    "sequence": 9
+  },
+  {
+    "route_id": "mock_2036",
+    "stop_id": "bus_1272",
+    "sequence": 10
+  },
+  {
+    "route_id": "mock_2036",
+    "stop_id": "bus_1227",
+    "sequence": 11
+  },
+  {
+    "route_id": "mock_2036",
+    "stop_id": "bus_1168",
+    "sequence": 12
+  },
+  {
+    "route_id": "mock_2036",
+    "stop_id": "bus_1165",
+    "sequence": 13
+  },
+  {
+    "route_id": "mock_2036",
+    "stop_id": "bus_1201",
+    "sequence": 14
+  },
+  {
+    "route_id": "mock_2036",
+    "stop_id": "bus_1292",
+    "sequence": 15
+  },
+  {
+    "route_id": "mock_2036",
+    "stop_id": "bus_1138",
+    "sequence": 16
+  },
+  {
+    "route_id": "mock_2037",
+    "stop_id": "bus_1262",
+    "sequence": 1
+  },
+  {
+    "route_id": "mock_2037",
+    "stop_id": "bus_1133",
+    "sequence": 2
+  },
+  {
+    "route_id": "mock_2037",
+    "stop_id": "bus_1272",
+    "sequence": 3
+  },
+  {
+    "route_id": "mock_2037",
+    "stop_id": "bus_1165",
+    "sequence": 4
+  },
+  {
+    "route_id": "mock_2037",
+    "stop_id": "bus_1119",
+    "sequence": 5
+  },
+  {
+    "route_id": "mock_2037",
+    "stop_id": "bus_1130",
+    "sequence": 6
+  },
+  {
+    "route_id": "mock_2037",
+    "stop_id": "bus_1267",
+    "sequence": 7
+  },
+  {
+    "route_id": "mock_2037",
+    "stop_id": "bus_1183",
+    "sequence": 8
+  },
+  {
+    "route_id": "mock_2037",
+    "stop_id": "bus_1091",
+    "sequence": 9
+  },
+  {
+    "route_id": "mock_2037",
+    "stop_id": "bus_1157",
+    "sequence": 10
+  },
+  {
+    "route_id": "mock_2038",
+    "stop_id": "bus_1267",
+    "sequence": 1
+  },
+  {
+    "route_id": "mock_2038",
+    "stop_id": "bus_1203",
+    "sequence": 2
+  },
+  {
+    "route_id": "mock_2038",
+    "stop_id": "bus_1176",
+    "sequence": 3
+  },
+  {
+    "route_id": "mock_2038",
+    "stop_id": "bus_1265",
+    "sequence": 4
+  },
+  {
+    "route_id": "mock_2038",
+    "stop_id": "bus_1263",
+    "sequence": 5
+  },
+  {
+    "route_id": "mock_2038",
+    "stop_id": "bus_1237",
+    "sequence": 6
+  },
+  {
+    "route_id": "mock_2038",
+    "stop_id": "bus_1279",
+    "sequence": 7
+  },
+  {
+    "route_id": "mock_2038",
+    "stop_id": "bus_1248",
+    "sequence": 8
+  },
+  {
+    "route_id": "mock_2038",
+    "stop_id": "bus_1123",
+    "sequence": 9
+  },
+  {
+    "route_id": "mock_2038",
+    "stop_id": "bus_1216",
+    "sequence": 10
+  },
+  {
+    "route_id": "mock_2038",
+    "stop_id": "bus_1290",
+    "sequence": 11
+  },
+  {
+    "route_id": "mock_2038",
+    "stop_id": "bus_1231",
+    "sequence": 12
+  },
+  {
+    "route_id": "mock_2038",
+    "stop_id": "bus_1234",
+    "sequence": 13
+  },
+  {
+    "route_id": "mock_2038",
+    "stop_id": "bus_1159",
+    "sequence": 14
+  },
+  {
+    "route_id": "mock_2038",
+    "stop_id": "bus_1288",
+    "sequence": 15
+  },
+  {
+    "route_id": "mock_2038",
+    "stop_id": "bus_1114",
+    "sequence": 16
+  },
+  {
+    "route_id": "mock_2038",
+    "stop_id": "bus_1177",
+    "sequence": 17
+  },
+  {
+    "route_id": "mock_2039",
+    "stop_id": "bus_1076",
+    "sequence": 1
+  },
+  {
+    "route_id": "mock_2039",
+    "stop_id": "bus_1227",
+    "sequence": 2
+  },
+  {
+    "route_id": "mock_2039",
+    "stop_id": "bus_1233",
+    "sequence": 3
+  },
+  {
+    "route_id": "mock_2039",
+    "stop_id": "bus_1165",
+    "sequence": 4
+  },
+  {
+    "route_id": "mock_2039",
+    "stop_id": "bus_1180",
+    "sequence": 5
+  },
+  {
+    "route_id": "mock_2039",
+    "stop_id": "bus_1251",
+    "sequence": 6
+  },
+  {
+    "route_id": "mock_2039",
+    "stop_id": "bus_1199",
+    "sequence": 7
+  },
+  {
+    "route_id": "mock_2039",
+    "stop_id": "bus_1088",
+    "sequence": 8
+  },
+  {
+    "route_id": "mock_2040",
+    "stop_id": "bus_1282",
+    "sequence": 1
+  },
+  {
+    "route_id": "mock_2040",
+    "stop_id": "bus_1128",
+    "sequence": 2
+  },
+  {
+    "route_id": "mock_2040",
+    "stop_id": "bus_1194",
+    "sequence": 3
+  },
+  {
+    "route_id": "mock_2040",
+    "stop_id": "bus_1183",
+    "sequence": 4
+  },
+  {
+    "route_id": "mock_2040",
+    "stop_id": "bus_1277",
+    "sequence": 5
+  },
+  {
+    "route_id": "mock_2040",
+    "stop_id": "bus_1174",
+    "sequence": 6
+  },
+  {
+    "route_id": "mock_2040",
+    "stop_id": "bus_1173",
+    "sequence": 7
+  },
+  {
+    "route_id": "mock_2040",
+    "stop_id": "bus_1225",
+    "sequence": 8
+  },
+  {
+    "route_id": "mock_2040",
+    "stop_id": "bus_1237",
+    "sequence": 9
+  },
+  {
+    "route_id": "mock_2040",
+    "stop_id": "bus_1077",
+    "sequence": 10
+  },
+  {
+    "route_id": "mock_2040",
+    "stop_id": "bus_1123",
+    "sequence": 11
+  },
+  {
+    "route_id": "mock_2040",
+    "stop_id": "bus_1271",
+    "sequence": 12
+  },
+  {
+    "route_id": "mock_2040",
+    "stop_id": "bus_1145",
+    "sequence": 13
+  },
+  {
+    "route_id": "mock_2040",
+    "stop_id": "bus_1153",
+    "sequence": 14
+  },
+  {
+    "route_id": "mock_2040",
+    "stop_id": "bus_1166",
+    "sequence": 15
+  },
+  {
+    "route_id": "mock_2040",
+    "stop_id": "bus_1143",
+    "sequence": 16
+  },
+  {
+    "route_id": "mock_2041",
+    "stop_id": "bus_1238",
+    "sequence": 1
+  },
+  {
+    "route_id": "mock_2041",
+    "stop_id": "bus_1176",
+    "sequence": 2
+  },
+  {
+    "route_id": "mock_2041",
+    "stop_id": "bus_1237",
+    "sequence": 3
+  },
+  {
+    "route_id": "mock_2041",
+    "stop_id": "bus_1248",
+    "sequence": 4
+  },
+  {
+    "route_id": "mock_2041",
+    "stop_id": "bus_1187",
+    "sequence": 5
+  },
+  {
+    "route_id": "mock_2041",
+    "stop_id": "bus_1296",
+    "sequence": 6
+  },
+  {
+    "route_id": "mock_2041",
+    "stop_id": "bus_1153",
+    "sequence": 7
+  },
+  {
+    "route_id": "mock_2041",
+    "stop_id": "bus_1234",
+    "sequence": 8
+  },
+  {
+    "route_id": "mock_2041",
+    "stop_id": "bus_1136",
+    "sequence": 9
+  },
+  {
+    "route_id": "mock_2041",
+    "stop_id": "bus_1258",
+    "sequence": 10
+  },
+  {
+    "route_id": "mock_2041",
+    "stop_id": "bus_1100",
+    "sequence": 11
+  },
+  {
+    "route_id": "mock_2041",
+    "stop_id": "bus_1286",
+    "sequence": 12
+  },
+  {
+    "route_id": "mock_2041",
+    "stop_id": "bus_1114",
+    "sequence": 13
+  },
+  {
+    "route_id": "mock_2041",
+    "stop_id": "bus_1141",
+    "sequence": 14
+  },
+  {
+    "route_id": "mock_2041",
+    "stop_id": "bus_1143",
+    "sequence": 15
+  },
+  {
+    "route_id": "mock_2041",
+    "stop_id": "bus_1230",
+    "sequence": 16
+  },
+  {
+    "route_id": "mock_2041",
+    "stop_id": "bus_1103",
+    "sequence": 17
+  },
+  {
+    "route_id": "mock_2041",
+    "stop_id": "bus_1214",
+    "sequence": 18
+  },
+  {
+    "route_id": "mock_2042",
+    "stop_id": "bus_1227",
+    "sequence": 1
+  },
+  {
+    "route_id": "mock_2042",
+    "stop_id": "bus_1079",
+    "sequence": 2
+  },
+  {
+    "route_id": "mock_2042",
+    "stop_id": "bus_1138",
+    "sequence": 3
+  },
+  {
+    "route_id": "mock_2042",
+    "stop_id": "bus_1241",
+    "sequence": 4
+  },
+  {
+    "route_id": "mock_2042",
+    "stop_id": "bus_1251",
+    "sequence": 5
+  },
+  {
+    "route_id": "mock_2042",
+    "stop_id": "bus_1171",
+    "sequence": 6
+  },
+  {
+    "route_id": "mock_2042",
+    "stop_id": "bus_1238",
+    "sequence": 7
+  },
+  {
+    "route_id": "mock_2042",
+    "stop_id": "bus_1175",
+    "sequence": 8
+  },
+  {
+    "route_id": "mock_2042",
+    "stop_id": "bus_1225",
+    "sequence": 9
+  },
+  {
+    "route_id": "mock_2042",
+    "stop_id": "bus_1176",
+    "sequence": 10
+  },
+  {
+    "route_id": "mock_2042",
+    "stop_id": "bus_1265",
+    "sequence": 11
+  },
+  {
+    "route_id": "mock_2042",
+    "stop_id": "bus_1263",
+    "sequence": 12
+  },
+  {
+    "route_id": "mock_2042",
+    "stop_id": "bus_1237",
+    "sequence": 13
+  },
+  {
+    "route_id": "mock_2042",
+    "stop_id": "bus_1145",
+    "sequence": 14
+  },
+  {
+    "route_id": "mock_2042",
+    "stop_id": "bus_1261",
+    "sequence": 15
+  },
+  {
+    "route_id": "mock_2042",
+    "stop_id": "bus_1153",
+    "sequence": 16
+  },
+  {
+    "route_id": "mock_2043",
+    "stop_id": "bus_1205",
+    "sequence": 1
+  },
+  {
+    "route_id": "mock_2043",
+    "stop_id": "bus_1177",
+    "sequence": 2
+  },
+  {
+    "route_id": "mock_2043",
+    "stop_id": "bus_1230",
+    "sequence": 3
+  },
+  {
+    "route_id": "mock_2043",
+    "stop_id": "bus_1129",
+    "sequence": 4
+  },
+  {
+    "route_id": "mock_2043",
+    "stop_id": "bus_1240",
+    "sequence": 5
+  },
+  {
+    "route_id": "mock_2043",
+    "stop_id": "bus_1110",
+    "sequence": 6
+  },
+  {
+    "route_id": "mock_2043",
+    "stop_id": "bus_1106",
+    "sequence": 7
+  },
+  {
+    "route_id": "mock_2043",
+    "stop_id": "bus_1243",
+    "sequence": 8
+  },
+  {
+    "route_id": "mock_2043",
+    "stop_id": "bus_1220",
+    "sequence": 9
+  },
+  {
+    "route_id": "mock_2044",
+    "stop_id": "bus_1108",
+    "sequence": 1
+  },
+  {
+    "route_id": "mock_2044",
+    "stop_id": "bus_1153",
+    "sequence": 2
+  },
+  {
+    "route_id": "mock_2044",
+    "stop_id": "bus_1288",
+    "sequence": 3
+  },
+  {
+    "route_id": "mock_2044",
+    "stop_id": "bus_1136",
+    "sequence": 4
+  },
+  {
+    "route_id": "mock_2044",
+    "stop_id": "bus_1100",
+    "sequence": 5
+  },
+  {
+    "route_id": "mock_2044",
+    "stop_id": "bus_1154",
+    "sequence": 6
+  },
+  {
+    "route_id": "mock_2044",
+    "stop_id": "bus_1177",
+    "sequence": 7
+  },
+  {
+    "route_id": "mock_2044",
+    "stop_id": "bus_1143",
+    "sequence": 8
+  },
+  {
+    "route_id": "mock_2044",
+    "stop_id": "bus_1255",
+    "sequence": 9
+  },
+  {
+    "route_id": "mock_2044",
+    "stop_id": "bus_1246",
+    "sequence": 10
+  },
+  {
+    "route_id": "mock_2044",
+    "stop_id": "bus_1103",
+    "sequence": 11
+  },
+  {
+    "route_id": "mock_2044",
+    "stop_id": "bus_1110",
+    "sequence": 12
+  },
+  {
+    "route_id": "mock_2045",
+    "stop_id": "bus_1202",
+    "sequence": 1
+  },
+  {
+    "route_id": "mock_2045",
+    "stop_id": "bus_1279",
+    "sequence": 2
+  },
+  {
+    "route_id": "mock_2045",
+    "stop_id": "bus_1248",
+    "sequence": 3
+  },
+  {
+    "route_id": "mock_2045",
+    "stop_id": "bus_1123",
+    "sequence": 4
+  },
+  {
+    "route_id": "mock_2045",
+    "stop_id": "bus_1296",
+    "sequence": 5
+  },
+  {
+    "route_id": "mock_2045",
+    "stop_id": "bus_1145",
+    "sequence": 6
+  },
+  {
+    "route_id": "mock_2045",
+    "stop_id": "bus_1136",
+    "sequence": 7
+  },
+  {
+    "route_id": "mock_2045",
+    "stop_id": "bus_1141",
+    "sequence": 8
+  },
+  {
+    "route_id": "mock_2046",
+    "stop_id": "bus_1170",
+    "sequence": 1
+  },
+  {
+    "route_id": "mock_2046",
+    "stop_id": "bus_1140",
+    "sequence": 2
+  },
+  {
+    "route_id": "mock_2046",
+    "stop_id": "bus_1138",
+    "sequence": 3
+  },
+  {
+    "route_id": "mock_2046",
+    "stop_id": "bus_1199",
+    "sequence": 4
+  },
+  {
+    "route_id": "mock_2046",
+    "stop_id": "bus_1089",
+    "sequence": 5
+  },
+  {
+    "route_id": "mock_2046",
+    "stop_id": "bus_1202",
+    "sequence": 6
+  },
+  {
+    "route_id": "mock_2046",
+    "stop_id": "bus_1226",
+    "sequence": 7
+  },
+  {
+    "route_id": "mock_2046",
+    "stop_id": "bus_1279",
+    "sequence": 8
+  },
+  {
+    "route_id": "mock_2046",
+    "stop_id": "bus_1123",
+    "sequence": 9
+  },
+  {
+    "route_id": "mock_2046",
+    "stop_id": "bus_1271",
+    "sequence": 10
+  },
+  {
+    "route_id": "mock_2046",
+    "stop_id": "bus_1108",
+    "sequence": 11
+  },
+  {
+    "route_id": "mock_2046",
+    "stop_id": "bus_1153",
+    "sequence": 12
+  },
+  {
+    "route_id": "mock_2047",
+    "stop_id": "bus_1154",
+    "sequence": 1
+  },
+  {
+    "route_id": "mock_2047",
+    "stop_id": "bus_1177",
+    "sequence": 2
+  },
+  {
+    "route_id": "mock_2047",
+    "stop_id": "bus_1115",
+    "sequence": 3
+  },
+  {
+    "route_id": "mock_2047",
+    "stop_id": "bus_1291",
+    "sequence": 4
+  },
+  {
+    "route_id": "mock_2047",
+    "stop_id": "bus_1141",
+    "sequence": 5
+  },
+  {
+    "route_id": "mock_2047",
+    "stop_id": "bus_1246",
+    "sequence": 6
+  },
+  {
+    "route_id": "mock_2047",
+    "stop_id": "bus_1129",
+    "sequence": 7
+  },
+  {
+    "route_id": "mock_2047",
+    "stop_id": "bus_1148",
+    "sequence": 8
+  },
+  {
+    "route_id": "mock_2047",
+    "stop_id": "bus_1242",
+    "sequence": 9
+  },
+  {
+    "route_id": "mock_2047",
+    "stop_id": "bus_1218",
+    "sequence": 10
+  },
+  {
+    "route_id": "mock_2047",
+    "stop_id": "bus_1240",
+    "sequence": 11
+  },
+  {
+    "route_id": "mock_2047",
+    "stop_id": "bus_1078",
+    "sequence": 12
+  },
+  {
+    "route_id": "mock_2047",
+    "stop_id": "bus_1210",
+    "sequence": 13
+  },
+  {
+    "route_id": "mock_2047",
+    "stop_id": "bus_1243",
+    "sequence": 14
+  },
+  {
+    "route_id": "mock_2047",
+    "stop_id": "bus_1190",
+    "sequence": 15
+  },
+  {
+    "route_id": "mock_2047",
+    "stop_id": "bus_1200",
+    "sequence": 16
+  },
+  {
+    "route_id": "mock_2048",
+    "stop_id": "bus_1139",
+    "sequence": 1
+  },
+  {
+    "route_id": "mock_2048",
+    "stop_id": "bus_1087",
+    "sequence": 2
+  },
+  {
+    "route_id": "mock_2048",
+    "stop_id": "bus_1256",
+    "sequence": 3
+  },
+  {
+    "route_id": "mock_2048",
+    "stop_id": "bus_1244",
+    "sequence": 4
+  },
+  {
+    "route_id": "mock_2048",
+    "stop_id": "bus_1257",
+    "sequence": 5
+  },
+  {
+    "route_id": "mock_2048",
+    "stop_id": "bus_1075",
+    "sequence": 6
+  },
+  {
+    "route_id": "mock_2048",
+    "stop_id": "bus_1155",
+    "sequence": 7
+  },
+  {
+    "route_id": "mock_2048",
+    "stop_id": "bus_1188",
+    "sequence": 8
+  },
+  {
+    "route_id": "mock_2048",
+    "stop_id": "bus_1116",
+    "sequence": 9
+  },
+  {
+    "route_id": "mock_2048",
+    "stop_id": "bus_1086",
+    "sequence": 10
+  },
+  {
+    "route_id": "mock_2048",
+    "stop_id": "bus_1121",
+    "sequence": 11
+  },
+  {
+    "route_id": "mock_2048",
+    "stop_id": "bus_1217",
+    "sequence": 12
+  },
+  {
+    "route_id": "mock_2048",
+    "stop_id": "bus_1098",
+    "sequence": 13
+  },
+  {
+    "route_id": "mock_2048",
+    "stop_id": "bus_1133",
+    "sequence": 14
+  },
+  {
+    "route_id": "mock_2048",
+    "stop_id": "bus_1099",
+    "sequence": 15
+  },
+  {
+    "route_id": "mock_2048",
+    "stop_id": "bus_1272",
+    "sequence": 16
+  },
+  {
+    "route_id": "mock_2048",
+    "stop_id": "bus_1137",
+    "sequence": 17
+  },
+  {
+    "route_id": "mock_2048",
+    "stop_id": "bus_1283",
+    "sequence": 18
+  },
+  {
+    "route_id": "mock_2048",
+    "stop_id": "bus_1119",
+    "sequence": 19
+  },
+  {
+    "route_id": "mock_2049",
+    "stop_id": "bus_1093",
+    "sequence": 1
+  },
+  {
+    "route_id": "mock_2049",
+    "stop_id": "bus_1117",
+    "sequence": 2
+  },
+  {
+    "route_id": "mock_2049",
+    "stop_id": "bus_1213",
+    "sequence": 3
+  },
+  {
+    "route_id": "mock_2049",
+    "stop_id": "bus_1266",
+    "sequence": 4
+  },
+  {
+    "route_id": "mock_2049",
+    "stop_id": "bus_1075",
+    "sequence": 5
+  },
+  {
+    "route_id": "mock_2049",
+    "stop_id": "bus_1120",
+    "sequence": 6
+  },
+  {
+    "route_id": "mock_2049",
+    "stop_id": "bus_1239",
+    "sequence": 7
+  },
+  {
+    "route_id": "mock_2049",
+    "stop_id": "bus_1158",
+    "sequence": 8
+  },
+  {
+    "route_id": "mock_2049",
+    "stop_id": "bus_1084",
+    "sequence": 9
+  },
+  {
+    "route_id": "mock_2049",
+    "stop_id": "bus_1250",
+    "sequence": 10
+  },
+  {
+    "route_id": "mock_2050",
+    "stop_id": "bus_1138",
+    "sequence": 1
+  },
+  {
+    "route_id": "mock_2050",
+    "stop_id": "bus_1167",
+    "sequence": 2
+  },
+  {
+    "route_id": "mock_2050",
+    "stop_id": "bus_1183",
+    "sequence": 3
+  },
+  {
+    "route_id": "mock_2050",
+    "stop_id": "bus_1203",
+    "sequence": 4
+  },
+  {
+    "route_id": "mock_2050",
+    "stop_id": "bus_1088",
+    "sequence": 5
+  },
+  {
+    "route_id": "mock_2050",
+    "stop_id": "bus_1174",
+    "sequence": 6
+  },
+  {
+    "route_id": "mock_2050",
+    "stop_id": "bus_1238",
+    "sequence": 7
+  },
+  {
+    "route_id": "mock_2050",
+    "stop_id": "bus_1173",
+    "sequence": 8
+  },
+  {
+    "route_id": "mock_2050",
+    "stop_id": "bus_1202",
+    "sequence": 9
+  },
+  {
+    "route_id": "mock_2050",
+    "stop_id": "bus_1225",
+    "sequence": 10
+  },
+  {
+    "route_id": "mock_2050",
+    "stop_id": "bus_1284",
+    "sequence": 11
+  },
+  {
+    "route_id": "mock_2050",
+    "stop_id": "bus_1296",
+    "sequence": 12
+  },
+  {
+    "route_id": "mock_2050",
+    "stop_id": "bus_1234",
+    "sequence": 13
+  },
+  {
+    "route_id": "mock_2050",
+    "stop_id": "bus_1288",
+    "sequence": 14
+  },
+  {
+    "route_id": "mock_2050",
+    "stop_id": "bus_1134",
+    "sequence": 15
+  },
+  {
+    "route_id": "mock_2050",
+    "stop_id": "bus_1189",
+    "sequence": 16
+  },
+  {
+    "route_id": "mock_2050",
+    "stop_id": "bus_1143",
+    "sequence": 17
+  },
+  {
+    "route_id": "mock_2050",
+    "stop_id": "bus_1229",
+    "sequence": 18
+  },
+  {
+    "route_id": "mock_2051",
+    "stop_id": "bus_1109",
+    "sequence": 1
+  },
+  {
+    "route_id": "mock_2051",
+    "stop_id": "bus_1192",
+    "sequence": 2
+  },
+  {
+    "route_id": "mock_2051",
+    "stop_id": "bus_1154",
+    "sequence": 3
+  },
+  {
+    "route_id": "mock_2051",
+    "stop_id": "bus_1115",
+    "sequence": 4
+  },
+  {
+    "route_id": "mock_2051",
+    "stop_id": "bus_1230",
+    "sequence": 5
+  },
+  {
+    "route_id": "mock_2051",
+    "stop_id": "bus_1196",
+    "sequence": 6
+  },
+  {
+    "route_id": "mock_2051",
+    "stop_id": "bus_1240",
+    "sequence": 7
+  },
+  {
+    "route_id": "mock_2051",
+    "stop_id": "bus_1111",
+    "sequence": 8
+  },
+  {
+    "route_id": "mock_2051",
+    "stop_id": "bus_1110",
+    "sequence": 9
+  },
+  {
+    "route_id": "mock_2051",
+    "stop_id": "bus_1106",
+    "sequence": 10
+  },
+  {
+    "route_id": "mock_2051",
+    "stop_id": "bus_1289",
+    "sequence": 11
+  },
+  {
+    "route_id": "mock_2051",
+    "stop_id": "bus_1207",
+    "sequence": 12
+  },
+  {
+    "route_id": "mock_2052",
+    "stop_id": "bus_1253",
+    "sequence": 1
+  },
+  {
+    "route_id": "mock_2052",
+    "stop_id": "bus_1087",
+    "sequence": 2
+  },
+  {
+    "route_id": "mock_2052",
+    "stop_id": "bus_1151",
+    "sequence": 3
+  },
+  {
+    "route_id": "mock_2052",
+    "stop_id": "bus_1256",
+    "sequence": 4
+  },
+  {
+    "route_id": "mock_2052",
+    "stop_id": "bus_1257",
+    "sequence": 5
+  },
+  {
+    "route_id": "mock_2052",
+    "stop_id": "bus_1075",
+    "sequence": 6
+  },
+  {
+    "route_id": "mock_2052",
+    "stop_id": "bus_1184",
+    "sequence": 7
+  },
+  {
+    "route_id": "mock_2052",
+    "stop_id": "bus_1084",
+    "sequence": 8
+  },
+  {
+    "route_id": "mock_2052",
+    "stop_id": "bus_1116",
+    "sequence": 9
+  },
+  {
+    "route_id": "mock_2052",
+    "stop_id": "bus_1121",
+    "sequence": 10
+  },
+  {
+    "route_id": "mock_2052",
+    "stop_id": "bus_1217",
+    "sequence": 11
+  },
+  {
+    "route_id": "mock_2052",
+    "stop_id": "bus_1164",
+    "sequence": 12
+  },
+  {
+    "route_id": "mock_2052",
+    "stop_id": "bus_1131",
+    "sequence": 13
+  },
+  {
+    "route_id": "mock_2052",
+    "stop_id": "bus_1294",
+    "sequence": 14
+  },
+  {
+    "route_id": "mock_2052",
+    "stop_id": "bus_1094",
+    "sequence": 15
+  },
+  {
+    "route_id": "mock_2052",
+    "stop_id": "bus_1262",
+    "sequence": 16
+  },
+  {
+    "route_id": "mock_2052",
+    "stop_id": "bus_1147",
+    "sequence": 17
+  },
+  {
+    "route_id": "mock_2052",
+    "stop_id": "bus_1219",
+    "sequence": 18
+  },
+  {
+    "route_id": "mock_2052",
+    "stop_id": "bus_1283",
+    "sequence": 19
+  }
+]

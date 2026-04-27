@@ -46,7 +46,7 @@ class Settings(BaseSettings):
     nominatim_user_agent: str = "MosTransport/0.1 (educational project, MAI)"
 
     # Параметры маршрутизации (см. ТЗ п. 4.2.2)
-    max_walk_distance_m: int = 800
+    max_walk_distance_m: int = 2000
     max_alternative_routes: int = 3
     route_cache_size: int = 1000
     geocode_cache_size: int = 1000
