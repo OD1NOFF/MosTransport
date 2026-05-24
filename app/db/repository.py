@@ -119,3 +119,51 @@ def upsert_stop(external_id: str, name: str, lat: float, lon: float,
 
 # TODO: Здесь планируется добавить методы для работы с расписаниями (schedules)
 # и словарём топонимов (toponyms). См. ТЗ п. 4.3.2.5, 4.3.2.6.
+
+def upsert_route(external_id: str, route_number: str, transport_type: str,
+                 route_name: Optional[str] = None, direction: Optional[str] = None,
+                 color: Optional[str] = None) -> int:
+    """Вставить или обновить маршрут. Возвращает id."""
+    db = get_db()
+    db.execute(
+        "INSERT INTO routes (external_id, route_number, transport_type, route_name, direction, color) "
+        "VALUES (?, ?, ?, ?, ?, ?) "
+        "ON CONFLICT(external_id) DO UPDATE SET "
+        "route_number=excluded.route_number, transport_type=excluded.transport_type, "
+        "route_name=excluded.route_name, direction=excluded.direction, "
+        "color=excluded.color, updated_at=CURRENT_TIMESTAMP",
+        (external_id, route_number, transport_type, route_name, direction, color),
+    )
+    db.commit()
+    cur = db.execute("SELECT id FROM routes WHERE external_id = ?", (external_id,))
+    return cur.fetchone()["id"]
+
+
+def upsert_route_stop(route_external_id: str, stop_external_id: str,
+                      sequence: int, travel_time_min: Optional[float] = None,
+                      distance_m: Optional[float] = None) -> bool:
+    """
+    Вставить или обновить связь маршрут-остановка.
+    Возвращает True если запись сохранена, False если маршрут или остановка не найдены.
+    """
+    db = get_db()
+    route_row = db.execute(
+        "SELECT id FROM routes WHERE external_id = ?", (route_external_id,)
+    ).fetchone()
+    stop_row = db.execute(
+        "SELECT id FROM stops WHERE external_id = ?", (stop_external_id,)
+    ).fetchone()
+
+    if not route_row or not stop_row:
+        return False
+
+    db.execute(
+        "INSERT INTO route_stops (route_id, stop_id, stop_sequence, travel_time_min, distance_m) "
+        "VALUES (?, ?, ?, ?, ?) "
+        "ON CONFLICT(route_id, stop_sequence) DO UPDATE SET "
+        "stop_id=excluded.stop_id, "
+        "travel_time_min=excluded.travel_time_min, distance_m=excluded.distance_m",
+        (route_row["id"], stop_row["id"], sequence, travel_time_min, distance_m),
+    )
+    return True
+

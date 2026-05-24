@@ -1,0 +1,426 @@
+[
+  {
+    "Cells": {
+      "route_id": 2000,
+      "route_short_name": "1",
+      "route_long_name": "Сокольническая линия",
+      "route_type": 1
+    }
+  },
+  {
+    "Cells": {
+      "route_id": 2001,
+      "route_short_name": "2",
+      "route_long_name": "Замоскворецкая линия",
+      "route_type": 1
+    }
+  },
+  {
+    "Cells": {
+      "route_id": 2002,
+      "route_short_name": "3",
+      "route_long_name": "Арбатско-Покровская линия",
+      "route_type": 1
+    }
+  },
+  {
+    "Cells": {
+      "route_id": 2003,
+      "route_short_name": "4",
+      "route_long_name": "Филёвская линия",
+      "route_type": 1
+    }
+  },
+  {
+    "Cells": {
+      "route_id": 2004,
+      "route_short_name": "5",
+      "route_long_name": "Кольцевая линия",
+      "route_type": 1
+    }
+  },
+  {
+    "Cells": {
+      "route_id": 2005,
+      "route_short_name": "6",
+      "route_long_name": "Калужско-Рижская линия",
+      "route_type": 1
+    }
+  },
+  {
+    "Cells": {
+      "route_id": 2006,
+      "route_short_name": "7",
+      "route_long_name": "Таганско-Краснопресненская линия",
+      "route_type": 1
+    }
+  },
+  {
+    "Cells": {
+      "route_id": 2007,
+      "route_short_name": "8",
+      "route_long_name": "Калининская линия",
+      "route_type": 1
+    }
+  },
+  {
+    "Cells": {
+      "route_id": 2008,
+      "route_short_name": "9",
+      "route_long_name": "Серпуховско-Тимирязевская линия",
+      "route_type": 1
+    }
+  },
+  {
+    "Cells": {
+      "route_id": 2009,
+      "route_short_name": "10",
+      "route_long_name": "Люблинско-Дмитровская линия",
+      "route_type": 1
+    }
+  },
+  {
+    "Cells": {
+      "route_id": 2010,
+      "route_short_name": "11",
+      "route_long_name": "Большая кольцевая линия",
+      "route_type": 1
+    }
+  },
+  {
+    "Cells": {
+      "route_id": 2011,
+      "route_short_name": "12",
+      "route_long_name": "Бутовская линия",
+      "route_type": 1
+    }
+  },
+  {
+    "Cells": {
+      "route_id": 2012,
+      "route_short_name": "м1",
+      "route_long_name": "Метро Раменки — Метро Площадь Революции",
+      "route_type": 3
+    }
+  },
+  {
+    "Cells": {
+      "route_id": 2013,
+      "route_short_name": "м2",
+      "route_long_name": "Метро Теплый Стан — Метро Китай-город",
+      "route_type": 3
+    }
+  },
+  {
+    "Cells": {
+      "route_id": 2014,
+      "route_short_name": "м3",
+      "route_long_name": "Метро Беляево — Метро Китай-город",
+      "route_type": 3
+    }
+  },
+  {
+    "Cells": {
+      "route_id": 2015,
+      "route_short_name": "м6",
+      "route_long_name": "Метро Академическая — Метро Чистые пруды",
+      "route_type": 3
+    }
+  },
+  {
+    "Cells": {
+      "route_id": 2016,
+      "route_short_name": "м7",
+      "route_long_name": "Метро Сокол — Ярославский вокзал",
+      "route_type": 3
+    }
+  },
+  {
+    "Cells": {
+      "route_id": 2017,
+      "route_short_name": "м8",
+      "route_long_name": "Метро Коломенская — Метро Сухаревская",
+      "route_type": 3
+    }
+  },
+  {
+    "Cells": {
+      "route_id": 2018,
+      "route_short_name": "м9",
+      "route_long_name": "Метро Беговая — Метро Китай-город",
+      "route_type": 3
+    }
+  },
+  {
+    "Cells": {
+      "route_id": 2019,
+      "route_short_name": "м10",
+      "route_long_name": "Метро Войковская — Метро Боровицкая",
+      "route_type": 3
+    }
+  },
+  {
+    "Cells": {
+      "route_id": 2020,
+      "route_short_name": "т1",
+      "route_long_name": "Метро Щёлковская — Метро Преображенская пл.",
+      "route_type": 11
+    }
+  },
+  {
+    "Cells": {
+      "route_id": 2021,
+      "route_short_name": "т2",
+      "route_long_name": "Метро Сокольники — Метро Бауманская",
+      "route_type": 11
+    }
+  },
+  {
+    "Cells": {
+      "route_id": 2022,
+      "route_short_name": "т10",
+      "route_long_name": "Метро Тульская — Павелецкий вокзал",
+      "route_type": 11
+    }
+  },
+  {
+    "Cells": {
+      "route_id": 2023,
+      "route_short_name": "Б",
+      "route_long_name": "Садовое кольцо (по часовой)",
+      "route_type": 3
+    }
+  },
+  {
+    "Cells": {
+      "route_id": 2024,
+      "route_short_name": "Бк",
+      "route_long_name": "Садовое кольцо (против часовой)",
+      "route_type": 3
+    }
+  },
+  {
+    "Cells": {
+      "route_id": 2025,
+      "route_short_name": "1",
+      "route_long_name": "Метро Чистые Пруды — Останкино",
+      "route_type": 0
+    }
+  },
+  {
+    "Cells": {
+      "route_id": 2026,
+      "route_short_name": "3",
+      "route_long_name": "Метро Чистые Пруды — Балакиревский пер.",
+      "route_type": 0
+    }
+  },
+  {
+    "Cells": {
+      "route_id": 2027,
+      "route_short_name": "7",
+      "route_long_name": "Метро Сокольники — Колхозная площадь",
+      "route_type": 0
+    }
+  },
+  {
+    "Cells": {
+      "route_id": 2028,
+      "route_short_name": "17",
+      "route_long_name": "Метро Останкино — Метро Медведково",
+      "route_type": 0
+    }
+  },
+  {
+    "Cells": {
+      "route_id": 2029,
+      "route_short_name": "39",
+      "route_long_name": "Метро Войковская — Метро Тимирязевская",
+      "route_type": 0
+    }
+  },
+  {
+    "Cells": {
+      "route_id": 2030,
+      "route_short_name": "45",
+      "route_long_name": "Метро Братиславская — Метро Текстильщики",
+      "route_type": 3
+    }
+  },
+  {
+    "Cells": {
+      "route_id": 2031,
+      "route_short_name": "47",
+      "route_long_name": "Метро Люблино — Метро Кузьминки",
+      "route_type": 3
+    }
+  },
+  {
+    "Cells": {
+      "route_id": 2032,
+      "route_short_name": "76",
+      "route_long_name": "Метро ВДНХ — Останкино",
+      "route_type": 3
+    }
+  },
+  {
+    "Cells": {
+      "route_id": 2033,
+      "route_short_name": "86",
+      "route_long_name": "Метро Щёлковская — Метро Первомайская",
+      "route_type": 3
+    }
+  },
+  {
+    "Cells": {
+      "route_id": 2034,
+      "route_short_name": "103",
+      "route_long_name": "Метро Щёлковская — Фрязево",
+      "route_type": 3
+    }
+  },
+  {
+    "Cells": {
+      "route_id": 2035,
+      "route_short_name": "112",
+      "route_long_name": "Метро Планерная — Метро Тушинская",
+      "route_type": 3
+    }
+  },
+  {
+    "Cells": {
+      "route_id": 2036,
+      "route_short_name": "130",
+      "route_long_name": "Метро Сходненская — Метро Речной вокзал",
+      "route_type": 3
+    }
+  },
+  {
+    "Cells": {
+      "route_id": 2037,
+      "route_short_name": "145",
+      "route_long_name": "Метро Войковская — Метро Сокол",
+      "route_type": 3
+    }
+  },
+  {
+    "Cells": {
+      "route_id": 2038,
+      "route_short_name": "152",
+      "route_long_name": "Метро Беляево — Метро Теплый Стан",
+      "route_type": 3
+    }
+  },
+  {
+    "Cells": {
+      "route_id": 2039,
+      "route_short_name": "160",
+      "route_long_name": "Метро Нагатинская — Метро Коломенская",
+      "route_type": 3
+    }
+  },
+  {
+    "Cells": {
+      "route_id": 2040,
+      "route_short_name": "189",
+      "route_long_name": "Метро Царицыно — Метро Орехово",
+      "route_type": 3
+    }
+  },
+  {
+    "Cells": {
+      "route_id": 2041,
+      "route_short_name": "193",
+      "route_long_name": "Метро Домодедовская — Метро Красногвардейская",
+      "route_type": 3
+    }
+  },
+  {
+    "Cells": {
+      "route_id": 2042,
+      "route_short_name": "200",
+      "route_long_name": "Метро Молодёжная — Метро Кунцевская",
+      "route_type": 3
+    }
+  },
+  {
+    "Cells": {
+      "route_id": 2043,
+      "route_short_name": "226",
+      "route_long_name": "Метро Университет — Метро Киевская",
+      "route_type": 3
+    }
+  },
+  {
+    "Cells": {
+      "route_id": 2044,
+      "route_short_name": "255",
+      "route_long_name": "Метро Юго-Западная — Метро Беляево",
+      "route_type": 3
+    }
+  },
+  {
+    "Cells": {
+      "route_id": 2045,
+      "route_short_name": "275",
+      "route_long_name": "Метро Беляево — Метро Коньково",
+      "route_type": 3
+    }
+  },
+  {
+    "Cells": {
+      "route_id": 2046,
+      "route_short_name": "280",
+      "route_long_name": "Метро Новые Черёмушки — Метро Академическая",
+      "route_type": 3
+    }
+  },
+  {
+    "Cells": {
+      "route_id": 2047,
+      "route_short_name": "299",
+      "route_long_name": "Метро Крылатское — Метро Молодёжная",
+      "route_type": 3
+    }
+  },
+  {
+    "Cells": {
+      "route_id": 2048,
+      "route_short_name": "302",
+      "route_long_name": "Метро Строгино — Метро Крылатское",
+      "route_type": 3
+    }
+  },
+  {
+    "Cells": {
+      "route_id": 2049,
+      "route_short_name": "341",
+      "route_long_name": "Метро Митино — Метро Планерная",
+      "route_type": 3
+    }
+  },
+  {
+    "Cells": {
+      "route_id": 2050,
+      "route_short_name": "368",
+      "route_long_name": "Метро Сходненская — Метро Тушинская",
+      "route_type": 3
+    }
+  },
+  {
+    "Cells": {
+      "route_id": 2051,
+      "route_short_name": "400",
+      "route_long_name": "Метро Речной вокзал — Зеленоград",
+      "route_type": 3
+    }
+  },
+  {
+    "Cells": {
+      "route_id": 2052,
+      "route_short_name": "500",
+      "route_long_name": "Метро Ховрино — Метро Водный стадион",
+      "route_type": 3
+    }
+  }
+]

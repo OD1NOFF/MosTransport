@@ -16,21 +16,23 @@ from pathlib import Path
 from typing import List
 
 from app.config.settings import get_settings
-from app.data.base import DataSource, StopData
+from app.data.base import DataSource, RouteData, RouteStopData, StopData
 from app.data.datamos import DataMosDataSource
 from app.data.mosgortrans import MosgortransDataSource
 from app.data.osm import OsmDataSource
 from app.db.connection import get_db
-from app.db.repository import upsert_stop
+from app.db.repository import upsert_route, upsert_route_stop, upsert_stop
 from app.utils.geo import is_within_moscow
 from app.utils.logger import get_logger
+from app.data.cached import CachedDataSource
+
 
 logger = get_logger(__name__)
 
 
 def default_sources() -> List[DataSource]:
     """Список активных источников по умолчанию."""
-    return [MosgortransDataSource(), DataMosDataSource(), OsmDataSource()]
+    return [CachedDataSource(), OsmDataSource()]
 
 
 async def update_all_data(sources: List[DataSource] | None = None) -> dict:
@@ -50,17 +52,28 @@ async def update_all_data(sources: List[DataSource] | None = None) -> dict:
         started = datetime.utcnow()
         _insert_update_log(src.name, "in_progress", started)
         try:
+            # Остановки
             stops = await src.fetch_stops()
             stops = _validate_stops(stops)
             _save_stops(stops)
             stops_total += len(stops)
-
-            # Маршруты и связи реализуются аналогично по мере готовности адаптеров
-            # TODO: Здесь планируется сохранение routes и route_stops после реализации
-            # соответствующих методов в адаптерах.
-
-            _finish_update_log(src.name, "success", started, len(stops), 0)
             logger.info("Источник %s: %d остановок загружено", src.name, len(stops))
+
+            # Маршруты
+            routes = await src.fetch_routes()
+            routes = _validate_routes(routes)
+            _save_routes(routes)
+            routes_total += len(routes)
+            logger.info("Источник %s: %d маршрутов загружено", src.name, len(routes))
+
+            # Связи маршрут-остановка
+            route_stops = await src.fetch_route_stops()
+            saved_rs = _save_route_stops(route_stops)
+            logger.info("Источник %s: %d связей маршрут-остановка сохранено",
+                        src.name, saved_rs)
+
+            _finish_update_log(src.name, "success", started, len(stops), len(routes))
+
         except Exception as e:
             errors.append(f"{src.name}: {e}")
             _finish_update_log(src.name, "failed", started, 0, 0, error=str(e))
@@ -74,6 +87,8 @@ async def update_all_data(sources: List[DataSource] | None = None) -> dict:
     }
 
 
+# ── Валидация ─────────────────────────────────────────────────────────────────
+
 def _validate_stops(stops: List[StopData]) -> List[StopData]:
     """Отфильтровать остановки с некорректными координатами или пустыми именами."""
     valid = []
@@ -86,19 +101,43 @@ def _validate_stops(stops: List[StopData]) -> List[StopData]:
     return valid
 
 
-def _save_stops(stops: List[StopData]) -> None:
-    """Сохранить остановки в БД в рамках одной транзакции."""
-    db = get_db()
-    try:
-        db.execute("BEGIN")
-        for s in stops:
-            upsert_stop(s.external_id, s.name, s.latitude, s.longitude,
-                        s.stop_type, s.metro_line, s.metro_line_color)
-        db.commit()
-    except Exception:
-        db.rollback()
-        raise
+def _validate_routes(routes: List[RouteData]) -> List[RouteData]:
+    """Отфильтровать маршруты без номера или внешнего id."""
+    return [r for r in routes if r.external_id and r.route_number]
 
+
+# ── Сохранение ────────────────────────────────────────────────────────────────
+
+def _save_stops(stops: List[StopData]) -> None:
+    if not stops:
+        return
+    for s in stops:
+        upsert_stop(s.external_id, s.name, s.latitude, s.longitude,
+                    s.stop_type, s.metro_line, s.metro_line_color)
+
+
+def _save_routes(routes: List[RouteData]) -> None:
+    if not routes:
+        return
+    for r in routes:
+        upsert_route(r.external_id, r.route_number, r.transport_type,
+                     r.route_name, r.direction, r.color)
+
+
+def _save_route_stops(route_stops: List[RouteStopData]) -> int:
+    if not route_stops:
+        return 0
+    db = get_db()
+    saved = 0
+    for rs in route_stops:
+        ok = upsert_route_stop(rs.route_external_id, rs.stop_external_id, rs.sequence)
+        if ok:
+            saved += 1
+    db.commit()
+    return saved
+
+
+# ── Служебные ─────────────────────────────────────────────────────────────────
 
 def _backup_database(db_path: Path) -> None:
     """Создать резервную копию файла БД."""
