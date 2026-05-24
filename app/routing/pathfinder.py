@@ -93,7 +93,7 @@ def find_route(
         results.append({
             "total_time_min": round(total_time, 1),
             "total_distance_m": round(total_dist, 1),
-            "transfers_count": sum(1 for s in segments if s["type"] == "transfer"),
+            "transfers_count": max(0, len([s for s in segments if s["type"] not in ("walk", "transfer")]) - 1),
             "segments": segments,
         })
 
